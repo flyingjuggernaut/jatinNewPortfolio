@@ -191,6 +191,12 @@ fieldset[disabled] .btn-xl:hover {
     color: #fff;
     background-color: #fec503
 }
+
+@font-face {
+  font-family: marker-felt;
+  src: url(DSMarkerFelt.ttf);
+}
+
 @media (min-width: 768px) {
     .navbar-custom {
         background-color: transparent;
@@ -218,7 +224,7 @@ fieldset[disabled] .btn-xl:hover {
     }
 }
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/Header-bg-1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/Header-bg-1.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
