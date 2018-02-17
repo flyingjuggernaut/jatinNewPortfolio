@@ -145,7 +145,7 @@ fieldset[disabled] .btn-xl:hover {
     border-color: transparent
 }
 .navbar-custom .navbar-brand {
-    color: #fed136;
+    color: #fff;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
 }
 .navbar-custom .navbar-brand.active,
