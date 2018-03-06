@@ -3,6 +3,25 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 200px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 .btn-primary.active,
 .btn-primary:active,
@@ -67,7 +86,7 @@ a:hover {
 }
 .btn-primary {
     color: #fff;
-    background-color: #222;
+    background-color: ##009688;
     border-color: #222
 }
 .btn-primary.active,
@@ -223,6 +242,14 @@ fieldset[disabled] .btn-xl:hover {
         font-size: 1.5em
     }
 }
+/* #linkedin {
+    background-image: url('../img/portfolio/icons/Linkedin.png');
+    /* background: url(../img/portfolio/icons/Linkedin.png) repeat; */
+    /* min-height: 100%;
+    background-repeat: no-repeat; */
+    /* background-size: 300px 100px; */
+/* } */
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/header-bg-3.jpg');
     background-repeat: no-repeat;
