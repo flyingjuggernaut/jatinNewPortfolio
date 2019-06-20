@@ -25,17 +25,20 @@
     <link href="css/agency.min.css" rel="stylesheet">
 
     <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-
-
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-73799652-2', 'auto');
-          ga('send', 'pageview');
-
+        ga('create', 'UA-73799652-2', 'auto');
+        ga('send', 'pageview');
     </script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -67,20 +70,20 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="dropdown">
-                          <a class="page-scroll dropdown-btn" href="#portfolio">Portfolio</a>
-                          <div class="dropdown-content">
-                            <a href="#portfolioModal_T1DAR" target="_blank" class="portfolio-link" data-toggle="modal">T1DAR</a>
-                            <a href="#portfolioModal_memorabilia" class="portfolio-link" data-toggle="modal">Memorabilia</a>
-                            <a href="#portfolioModal_lsahonors" class="portfolio-link" data-toggle="modal">UM LSA Honors</a>
-                            <a href="#portfolioModal_graphicdesign" class="portfolio-link" data-toggle="modal">Graphic Design</a>
-                          </div>
+                        <a class="page-scroll dropdown-btn" href="#portfolio">Portfolio</a>
+                        <div class="dropdown-content">
+                            <a href="#portfolioModal_T1DAR" target="_blank" class="portfolio-link" data-toggle="modal">Game design: T1DAR</a>
+                            <a href="#portfolioModal_memorabilia" class="portfolio-link" data-toggle="modal">Product design: Memorabilia</a>
+                            <a href="#portfolioModal_lsahonors" class="portfolio-link" data-toggle="modal">Usability evaluation: UM LSA Honors</a>
+                            <a href="#portfolioModal_graphicdesign" class="portfolio-link" data-toggle="modal">Graphic/UI design</a>
+                        </div>
                     </li>
                     <li class="dropdown">
                         <a class="page-scroll dropdown-btn" href="#about">About</a>
                         <div class="dropdown-content">
-                          <a href="#about" class="page-scroll">Short Bio</a>
-                          <a href="#testimonials" class="page-scroll">Testimonials</a>
-                          <a href="#pitch" class="page-scroll">Passion Pitch</a>
+                            <a href="#about" class="page-scroll">Short Bio</a>
+                            <a href="#testimonials" class="page-scroll">Testimonials</a>
+                            <a href="#pitch" class="page-scroll">Passion Pitch</a>
                         </div>
                     </li>
                     <li>
@@ -98,30 +101,32 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in" style="width: 40%;margin: 0 0 3% 30%;text-align: center;">
-                  <span style="font-size: 50px;font-family: Montserrat ;">Jatin Gupta</span> <br><span style="font-size: 24px;font-family: Montserrat ;">Product Designer</span>
+                    <span style="font-size: 50px;font-family: Montserrat ;">Jatin Gupta</span>
+                    <br><span style="font-size: 24px;font-family: Montserrat ;">Product Designer</span>
                 </div>
 
                 <div class="intro-lead-in" style="width: 40%;margin: 0 0 3% 30%;text-align: center;font-family: Montserrat ;font-size:18px;">
-                Experience: Augmented reality game designer, </br> UX designer, UX Researcher, UI developer
+                    Experience: Augmented reality game designer, </br> UX designer, UX Researcher, UI developer
                 </div>
 
-                  <div><form action="mailto:jating@umich.edu" style="margin-top: 7%;">
-                      <input type="submit" class="btn btn-primary" value="Send an Email" />
+                <div>
+                    <form action="mailto:jating@umich.edu" style="margin-top: 7%;">
+                        <input type="submit" class="btn btn-primary" value="Send an Email" />
                     </form>
-                  </div>
+                </div>
 
-                  <div class="intro-lead-in">
-                          <div class="col-md-4" style="margin: 5% 25% 0 25%;width: 50%;">
+                <div class="intro-lead-in">
+                    <div class="col-md-4" style="margin: 5% 25% 0 25%;width: 50%;">
 
-                                  <div><a href="http://bit.ly/jatinlinkedinprofile" target='_blank'><img style="width:40px;" src="img/icons/Linkedin.png"></a>
-                                  <a href="http://bit.ly/jatindribbble" target='_blank'><img style="width:40px;" src="img/icons/dribbble.png"></a>
-                                  <a href="http://bit.ly/jatinGithub" target='_blank'><img style="width:40px;" src="img/icons/Github.png"></a>
-                                  <a href="http://bit.ly/2nENkBf" target='_blank'><img style="width:40px;" src="img/icons/Twitter.png"></a>
-                                </div>
-                          </div>
+                        <div>
+                            <a href="http://bit.ly/jatinlinkedinprofile" target='_blank'><img style="width:40px;" src="img/icons/Linkedin.png"></a>
+                            <a href="http://bit.ly/jatindribbble" target='_blank'><img style="width:40px;" src="img/icons/dribbble.png"></a>
+                            <a href="http://bit.ly/jatinGithub" target='_blank'><img style="width:40px;" src="img/icons/Github.png"></a>
+                            <a href="http://bit.ly/2nENkBf" target='_blank'><img style="width:40px;" src="img/icons/Twitter.png"></a>
+                        </div>
+                    </div>
 
-
-                  </div>
+                </div>
                 <!--<a href="#about" class="page-scroll btn btn-xl">Find out more about me</a>-->
             </div>
         </div>
@@ -129,86 +134,98 @@
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  <h2 class="section-heading">Portfolio</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
 
-                  <h3 class="section-subheading text-muted">Here are some of the projects that I have worked on.</h3>
-                  <!--<h3 class="section-subheading text-muted">Looking for <a class="page-scroll" href="#graphic"><u style="color:#a98818;"><b>visual Designs</b></u></a>.</h3>-->
-              </div>
-          </div>
-          <div class="row">
+                    <h3 class="section-subheading text-muted">Here are some of the projects that I have worked on.</h3>
+                    <!--<h3 class="section-subheading text-muted">Looking for <a class="page-scroll" href="#graphic"><u style="color:#a98818;"><b>visual Designs</b></u></a>.</h3>-->
+                </div>
+            </div>
+            <div class="row">
 
-              <! ------------T1DAR----------------------!>
-                  <div class="col-md-4 col-sm-6 portfolio-item">
-                      <a href="#portfolioModal_T1DAR" target="_blank" class="portfolio-link" data-toggle="modal">
-                          <div class="portfolio-hover">
-                              <div class="portfolio-hover-content">
-                                  <i class="fa fa-plus fa-3x"></i>
-                              </div>
-                          </div>
-                          <img src="img/portfolio/T1DAR/cover.jpg" class="img-responsive" alt="" style='object-fit: cover;width:360px;height:240px;'>
-                      </a>
-                      <div class="portfolio-caption">
-                          <h4>T1DAR</h4>
-                          <p class="text-muted">AR game designed to teach kids about Type 1 diabetes</p>
-                      </div>
-                  </div>
+                <! ------------K12Insight: Account settings cleanup----------------------!>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal_k12accountsettings" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/K12insight_accountSettings/EngageDashboard.png" class="img-responsive" alt="" style='object-fit: cover;width:360px;height:240px;'>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>UI/UX design: A/c settings cleanup</h4>
+                        <p class="text-muted">Usability evaluation of account settings in Engage.</p>
+                    </div>
+                </div>
 
-                  <! ------------Memorabilia---------------------->
-                      <div class="col-md-4 col-sm-6 portfolio-item">
-                            <a href="#portfolioModal_memorabilia" class="portfolio-link" data-toggle="modal">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
-                                        <i class="fa fa-plus fa-3x"></i>
-                                    </div>
-                                </div>
-                                <img src="img/portfolio/Memorabilia/Memorabilia_CoverPhoto.png" class="img-responsive" alt="" style='width:360px;height:240px;object-fit: cover;'>
-                           </a>
-                           <div class="portfolio-caption">
-                                <h4>Memorabilia</h4>
-                                <p class="text-muted">Share memories at a location anonymously</p>
-                           </div>
-                      </div>
+                <! ------------T1DAR----------------------!>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal_T1DAR" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/T1DAR/cover.jpg" class="img-responsive" alt="" style='object-fit: cover;width:360px;height:240px;'>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Game design: T1DAR</h4>
+                        <p class="text-muted">AR game designed to teach kids about Type 1 diabetes</p>
+                    </div>
+                </div>
 
-                  <! ------------UM LSA Honors---------------------->
-                      <div class="col-md-4 col-sm-6 portfolio-item">
-                          <a href="#portfolioModal_lsahonors" class="portfolio-link" data-toggle="modal">
-                              <div class="portfolio-hover">
-                                  <div class="portfolio-hover-content">
-                                      <i class="fa fa-plus fa-3x"></i>
-                                  </div>
-                              </div>
-                              <img src="img/portfolio/lsahonors/cover.jpg" class="img-responsive" alt="" style='width:360px;height:240px;object-fit: cover;'>
-                          </a>
-                          <div class="portfolio-caption">
-                              <h4>UM LSA Honors</h4>
-                              <p class="text-muted">Conducting usability evaluation of the UM LSA Honors website</p>
-                          </div>
-                      </div>
+                <! ------------UM LSA Honors---------------------->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal_lsahonors" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/lsahonors/cover.jpg" class="img-responsive" alt="" style='width:360px;height:240px;object-fit: cover;'>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Usability evaluation: UM LSA Honors</h4>
+                        <p class="text-muted">Conducting usability evaluation of the UM LSA Honors website</p>
+                    </div>
+                </div>
 
-                      <! ------------My graphic design works---------------------->
-                          <div class="col-md-4 col-sm-6 portfolio-item">
-                              <a href="#portfolioModal_graphicdesign" class="portfolio-link" data-toggle="modal">
-                                  <div class="portfolio-hover">
-                                      <div class="portfolio-hover-content">
-                                          <i class="fa fa-plus fa-3x"></i>
-                                      </div>
-                                  </div>
-                                  <img src="img/portfolio/visualDesign/Cover_graphicdesign.jpg" class="img-responsive" alt="" style='object-fit: cover;width:360px;height:240px;'>
-                              </a>
-                              <div class="portfolio-caption">
-                                  <h4>Graphic design</h4>
-                                  <p class="text-muted">A collection of my graphic design works.</p>
-                              </div>
-                          </div>
+                <! ------------Memorabilia---------------------->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal_memorabilia" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Memorabilia/Memorabilia_CoverPhoto.png" class="img-responsive" alt="" style='width:360px;height:240px;object-fit: cover;'>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Product design: Memorabilia</h4>
+                        <p class="text-muted">Share memories at a location anonymously</p>
+                    </div>
+                </div>
 
+                <! ------------My graphic design works---------------------->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal_graphicdesign" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/visualDesign/visualdesign_cover.jpg" class="img-responsive" alt="" style='object-fit: cover;width:360px;height:240px;'>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Graphic/UI design samples</h4>
+                        <p class="text-muted">A collection of my visual design works.</p>
+                    </div>
+                </div>
 
-
-
-
-            <! ------------Tecaid----------------------!>
+                <! ------------Tecaid----------------------!>
                 <!-- <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -224,9 +241,8 @@
                     </div>
                 </div> -->
 
-
                 <! ------------New Eagle----------------------!>
-                        <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+                <!-- <div class="col-md-4 col-sm-6 portfolio-item">
                             <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content">
@@ -241,7 +257,7 @@
                             </div>
                 </div> -->
 
-            <! ------------Itineraire----------------------!>
+                <! ------------Itineraire----------------------!>
                 <!-- <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -258,7 +274,7 @@
                 </div> -->
 
                 <! ------------Innovation in Action----------------------!>
-               <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+                <!-- <div class="col-md-4 col-sm-6 portfolio-item">
                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                        <div class="portfolio-hover">
                            <div class="portfolio-hover-content">
@@ -273,7 +289,7 @@
                    </div>
                </div> -->
 
-            <! ------------Integrated Product development----------------------!>
+                <! ------------Integrated Product development----------------------!>
                 <!--<div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -289,7 +305,7 @@
                     </div>
                 </div>-->
 
-            <! ------------Alternative Spring Break----------------------!>
+                <! ------------Alternative Spring Break----------------------!>
                 <!--<div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -305,13 +321,7 @@
                     </div>
                 </div>-->
 
-
-
-
-
-
-
-            <! ------------ Visual design samples ----------------------!>
+                <! ------------ Visual design samples ----------------------!>
                 <!-- <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -326,7 +336,6 @@
                         <p class="text-muted">Visual Design</p>
                     </div>
                 </div> -->
-
 
             </div>
         </div>
@@ -345,10 +354,8 @@
             </div>
             <div class="row">
 
-
-
                   <! ------------Intro Slide---------------------->
-                      <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+    <!-- <div class="col-md-4 col-sm-6 portfolio-item">
                           <a href="#graphicModal1" class="portfolio-link" data-toggle="modal">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -362,8 +369,8 @@
                               <p class="text-muted">A one pager about my interests and favorites.</p>
                           </div>
                       </div> -->
-                      <! ------------Collage---------------------->
-                          <!--<div class="col-md-4 col-sm-6 portfolio-item">
+    <! ------------Collage---------------------->
+    <!--<div class="col-md-4 col-sm-6 portfolio-item">
                               <a href="#graphicModal3" class="portfolio-link" data-toggle="modal">
                                   <div class="portfolio-hover">
                                       <div class="portfolio-hover-content">
@@ -378,8 +385,8 @@
                               </div>
                           </div>-->
 
-                              <! ------------UMSI website redesign---------------------->
-                                  <!--<div class="col-md-4 col-sm-6 portfolio-item">
+    <! ------------UMSI website redesign---------------------->
+    <!--<div class="col-md-4 col-sm-6 portfolio-item">
                                       <a href="#graphicModal4" class="portfolio-link" data-toggle="modal">
                                           <div class="portfolio-hover">
                                               <div class="portfolio-hover-content">
@@ -394,8 +401,8 @@
                                       </div>
                                   </div>-->
 
-                                  <! ------------Portfolio website redesign---------------------->
-                                      <!--<div class="col-md-4 col-sm-6 portfolio-item">
+    <! ------------Portfolio website redesign---------------------->
+    <!--<div class="col-md-4 col-sm-6 portfolio-item">
                                           <a href="#graphicModal5" class="portfolio-link" data-toggle="modal">
                                               <div class="portfolio-hover">
                                                   <div class="portfolio-hover-content">
@@ -410,8 +417,8 @@
                                           </div>
                                       </div>-->
 
-                                       <! ------------Alphabet Poster---------------------->
-                                              <!--<div class="col-md-4 col-sm-6 portfolio-item">
+    <! ------------Alphabet Poster---------------------->
+    <!--<div class="col-md-4 col-sm-6 portfolio-item">
                                                   <a href="#graphicModal2" class="portfolio-link" data-toggle="modal">
                                                       <div class="portfolio-hover">
                                                           <div class="portfolio-hover-content">
@@ -426,11 +433,9 @@
                                                   </div>
                                               </div> -->
 
-
-            <!--</div>
+    <!--</div>
         </div>
     </section>-->
-
 
     <!-- About Section -->
     <section id="about">
@@ -447,34 +452,34 @@
             <div class="row" id="blurb">
                 <div class="col-lg-12">
                     <table style="margin-top: 2%;">
-                      <tr>
-                        <td><img class="img-responsive" src="img/about/AboutImage.jpg" alt="" style="width: 80%;margin: 0 auto;"></td>
-                        <td style="padding-left: 7%;font-family: avenir;font-size: 12pt;">
-                          Here are some things about me:
-                        </br></br>
-                          <ul>
-                            <li>
-                              Electronics major in my undergrad.
-                              Worked as a UI developer for 2.5 years and now creating accessible and engaging interfaces.
-                            </li>
-                            <li>
-                              I believe we should everyday try to do something that makes us afraid because fear is what brings out our true self.
-                            </li>
-                            <li>
-                              I like to play ping pong and hope to play against Ma Long someday.
-                            </li>
-                            <li>
-                              Went and organized free hugs.
-                            </li>
-                            <li>
-                              Sudoku champion in undergrad for all 4 years.
-                            </li>
-                            <li>
-                              Jumped in a river at sub-zero temperature.
-                            </li>
-                          </ul>
-                        </td>
-                      </tr>
+                        <tr>
+                            <td><img class="img-responsive" src="img/about/AboutImage.jpg" alt="" style="width: 80%;margin: 0 auto;"></td>
+                            <td style="padding-left: 7%;font-family: avenir;font-size: 12pt;">
+                                Here are some things about me:
+                                </br>
+                                </br>
+                                <ul>
+                                    <li>
+                                        Electronics major in my undergrad. Worked as a UI developer for 2.5 years and now creating accessible and engaging interfaces.
+                                    </li>
+                                    <li>
+                                        I believe we should everyday try to do something that makes us afraid because fear is what brings out our true self.
+                                    </li>
+                                    <li>
+                                        I like to play ping pong and hope to play against Ma Long someday.
+                                    </li>
+                                    <li>
+                                        Went and organized free hugs.
+                                    </li>
+                                    <li>
+                                        Sudoku champion in undergrad for all 4 years.
+                                    </li>
+                                    <li>
+                                        Jumped in a river at sub-zero temperature.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
                     </table>
 
                     <!-- <ul class="timeline">
@@ -501,23 +506,26 @@
             <div class="row" id="testimonials" style="margin-top:10%;padding-left:20%;padding-right:20%;">
                 <h4 class="section-heading" align="middle" style="margin-top:10%;">Testimonials</h4>
 
-                <div style="border: 1px solid black;margin-top: 5%;box-shadow: 10px 10px 5px grey;">
-                  <p style="margin:5% 5%;">
-                    I worked with Jatin on an exceptionally challenging product design project at the University of Michigan. While collaborating with him during user research, I was instantly impressed with his attitude to get his hands dirty in the field and provide the team with valuable qualitative user research data. His passion for user-centered design was reflected in his approach as he took lead in recruiting and interviewing, what can only be called one of the toughest niche users I had to deal with during academic user research, given the sensitive nature of medical patients we were trying to help with our product. I remember every time we didn't agree on a common approach, we ended up having passionate debates around the nuances of conducting user research in such scenario, and his knowledge and grasp over the UX design process became apparent. In a team of very high caliber product managers, designers, and engineers, Jatin’s passion for user-centered design left a lasting impression on me.
-                  </br></br> <i style="text-align:right;">(<a href="https://www.linkedin.com/in/sheetanshubhardwaj/" target="_blank"><u>Sheetanshu Bhardwaj</u></a>, UX designer at Nutanix)</i>
-                  </p>
+                <div style="border: 1px solid black;margin-top: 5%;box-shadow: 10px 10px 5px #80808021;">
+                    <p style="margin:5% 5%;">
+                        I worked with Jatin on an exceptionally challenging product design project at the University of Michigan. While collaborating with him during user research, I was instantly impressed with his attitude to get his hands dirty in the field and provide the team with valuable qualitative user research data. His passion for user-centered design was reflected in his approach as he took lead in recruiting and interviewing, what can only be called one of the toughest niche users I had to deal with during academic user research, given the sensitive nature of medical patients we were trying to help with our product. I remember every time we didn't agree on a common approach, we ended up having passionate debates around the nuances of conducting user research in such scenario, and his knowledge and grasp over the UX design process became apparent. In a team of very high caliber product managers, designers, and engineers, Jatin’s passion for user-centered design left a lasting impression on me.
+                        </br>
+                        </br> <i style="text-align:right;">(<a href="https://www.linkedin.com/in/sheetanshubhardwaj/" target="_blank"><u>Sheetanshu Bhardwaj</u></a>, UX designer at Nutanix)</i>
+                    </p>
                 </div>
 
-                <div style="border: 1px solid black;margin-top: 10%;box-shadow: 10px 10px 5px grey;">
-                  <p style="margin:5% 5%;">
-                    Jatin worked on a consulting project in my class on Project Management and Consulting. He did an incredible job, thrilling the client with a very high quality work product. He was an extremely hard worker, showed excellent initiative, was thoughtful and noticed key details to ensure project success and client satisfaction. I highly recommend him! </br></br> <i style="text-align:right;">(<a href="https://www.linkedin.com/in/amycell/" target="_blank"><u>Prof. Amy Cell</u></a>, President and Chief Matchmaker at Amy Cell LLC)</i>
-                  </p>
+                <div style="border: 1px solid black;margin-top: 10%;box-shadow: 10px 10px 5px #80808021;">
+                    <p style="margin:5% 5%;">
+                        Jatin worked on a consulting project in my class on Project Management and Consulting. He did an incredible job, thrilling the client with a very high quality work product. He was an extremely hard worker, showed excellent initiative, was thoughtful and noticed key details to ensure project success and client satisfaction. I highly recommend him! </br>
+                        </br> <i style="text-align:right;">(<a href="https://www.linkedin.com/in/amycell/" target="_blank"><u>Prof. Amy Cell</u></a>, President and Chief Matchmaker at Amy Cell LLC)</i>
+                    </p>
                 </div>
 
-                <div style="border: 1px solid black;margin-top: 10%;box-shadow: 10px 10px 5px grey;">
-                  <p style="margin:5% 5%;">
-                    Jatin Gupta did usability work for a project examining the use of ridehailing services by people with vision impairments. His work included both working on the research design and conducting the actual field research. Jatin has a knowledge of accessibility issues, and the experience of conducting UX work with people with disabilities. In this specific case, his work took place in a low-resource field scenario, which involved the need to be agile on adapting the research design and logistics on the ground. Jatin is a solid and patient design thinker. In my teaching and research work with Jatin, I felt that a cultivated discipline was being truly attentive -- when he works on one thing, his entire focus on that alone. This makes him a very good listener and documenter of issues in a real world UX evaluation. </br></br> <i style="text-align:right;">(<a href="https://www.linkedin.com/in/joyojeet-pal-6b53672/" target="_blank"><u>Prof. Joyojeet Pal</u></a>, University of Michigan School of Information)</i>
-                  </p>
+                <div style="border: 1px solid black;margin-top: 10%;box-shadow: 10px 10px 5px #80808021;">
+                    <p style="margin:5% 5%;">
+                        Jatin Gupta did usability work for a project examining the use of ridehailing services by people with vision impairments. His work included both working on the research design and conducting the actual field research. Jatin has a knowledge of accessibility issues, and the experience of conducting UX work with people with disabilities. In this specific case, his work took place in a low-resource field scenario, which involved the need to be agile on adapting the research design and logistics on the ground. Jatin is a solid and patient design thinker. In my teaching and research work with Jatin, I felt that a cultivated discipline was being truly attentive -- when he works on one thing, his entire focus on that alone. This makes him a very good listener and documenter of issues in a real world UX evaluation. </br>
+                        </br> <i style="text-align:right;">(<a href="https://www.linkedin.com/in/joyojeet-pal-6b53672/" target="_blank"><u>Prof. Joyojeet Pal</u></a>, University of Michigan School of Information)</i>
+                    </p>
                 </div>
 
                 <!--<div style="border: 1px solid black;margin-top: 10%;box-shadow: 10px 10px 5px grey;">
@@ -528,15 +536,14 @@
                 </div>-->
             </div>
             <div class="row" id="pitch" style="margin-top:12%;padding-left:20%;padding-right:20%;">
-              <h4 class="section-heading" align="middle">My passion pitch</h4>
+                <h4 class="section-heading" align="middle">My passion pitch</h4>
                 <div style="margin-top: 10%;text-align: center;">
-                 <iframe width="560" height="315" src="https://www.youtube.com/embed/H3n36D2ko9o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/H3n36D2ko9o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-               </div>
+                </div>
             </div>
         </div>
     </section>
-
 
     <!-- Clients Aside -->
     <!--<aside class="clients">
@@ -575,8 +582,6 @@
         </div>
     </section>-->
 
-
-
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
@@ -594,8 +599,8 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">-->
-                                <!-- Project Details Go Here -->
-                                <!--<h2 style="text-align:center;">INTERACTION DESIGN PROJECT: TECAID</h2>
+    <!-- Project Details Go Here -->
+    <!--<h2 style="text-align:center;">INTERACTION DESIGN PROJECT: TECAID</h2>
                                 <p style="text-align:center;" class="item-intro text-muted">Helping baby boomers request for timely technical assistance.</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/tecaid/tecaid_2.JPG" alt="">
                                 <strong>Role</strong><p>Interaction designer</p>
@@ -678,8 +683,6 @@
             </div>
         </div>
     </div>-->
-
-
 
     <!-- New Eagle -->
     <!--<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
@@ -780,9 +783,9 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <!--<h2 style="text-align:center;">INTEGRATED PRODUCT DEVELOPMENT:<br/>STIL</h2>
+    <!--<h2 style="text-align:center;">INTEGRATED PRODUCT DEVELOPMENT:<br/>STIL</h2>
                                 <!--<p>Helping people in dealing with anxiety attacks</p>-->
-                                <!--<p style="text-align:center;" class="item-intro text-muted">Helping people manage everyday stress</p>
+    <!--<p style="text-align:center;" class="item-intro text-muted">Helping people manage everyday stress</p>
 
                                 <img class="img-responsive img-centered" src="img/portfolio/ipd/pic13.jpg" alt="">
                                 <strong>Overview:</strong>
@@ -935,7 +938,6 @@
                                 <p>Check out the website <a href='http://ipd.barclayconsulting.com/teams/2017/peach/' target='_blank'>here</a><br/>
                                 The marketing video can be found <a href='https://www.youtube.com/watch?v=-SQOle-9K5k' target='_blank'>here</a></p>
 
-
                                 <ul style="text-align: center;" class="list-inline">
                                     <li>Date: January - April 2017</li>
                                     <li>Client: None</li>
@@ -1022,7 +1024,6 @@
                                 <strong>Survey Results</strong>
                                 <p>Many high school students said that they know climate change is an issue but it is not highlighted enough. They were not really sure what they can do in regards to the same.</p>
 
-
                                 <p>Below image shows how the results change when the users know that their money is going to an environmental charity.</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/iia/SurveyInGamePurchase.JPG" alt="">
 
@@ -1055,7 +1056,6 @@
                                 <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
                                 In a game, it is very important to educate the user about the concept and thus adopt a low floor and high ceiling approach.<br/><br/>
                                 It is very important to get the feedback of the target user; while all other people come in the end.</p>
-
 
                                 <ul style="text-align: center;" class="list-inline">
                                     <li>Date: October 2016 - March 2017</li>
@@ -1094,7 +1094,6 @@
 
                                 <strong>Role</strong>
                                 <p>UX Researcher</p>
-
 
                                 <strong>Client overview</strong>
                                 <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
@@ -1160,8 +1159,6 @@
                                 4. Custom query: Having a SQL window where people can write their own queries and having a cheat sheet on the page for the not
                                 so tech savvy people.</p>
 
-
-
                                 <ul style="text-align: center;" class="list-inline">
                                     <li>Date: February - March 2017</li>
                                     <li>Client: Prevent Child Abuse America</li>
@@ -1178,6 +1175,157 @@
         </div>
     </div>-->
 
+    <!--  K12insight account settings cleanup : case study-->
+    <div class="portfolio-modal modal fade" id="portfolioModal_k12accountsettings" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2 style="text-align:center;text-transform: none;">Engage: Improving usability of account settings</h2>
+                                <p style="text-align:center;" class="item-intro text-muted">Usability evaluation and redesign</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/K12insight_accountSettings/accountsettings_inprojectCover.png" alt="">
+                                <ul style="text-align: center;" class="list-inline">
+                                    <li>Date: April 2019</li>
+                                    <li style="margin: 0 10px 0 10px;">Client: K12Insight</li>
+                                    <li>Category: UI/UX design</li>
+                                </ul>
+                                <strong>Context</strong>
+                                <!--<p>For now: Check it out <a href="https://seelio.com/w/357d/arvr-design-intern-_-lenovo-healthdesignbyus-colab?student=jatingupta">here</a>.</p>-->
+                                <p>In Engage: survey making tool of K12 <i>Insight</i>, the main account settings have too many options to choose from which takes away attention from the important settings. When it comes to finding a particular setting, it takes a user to scan through the entire side menu and make an intelligent guess to get to what they are looking for.</p>
+
+                                <strong>Goals</strong>
+                                <p>a. Make finding relevant settings easier from the left side menu, possibly by reducing or merging similar tabs.
+                                </br>b. Solve usability issues in different tabs and display the information in an intelligent manner so as to reduce the screen clutter.
+                                </br>c. Show the important information in a graspable manner in tabs such as Account usage data.
+                                </br>d. Improve the performance of the settings module by displaying information in a more efficient manner.
+                                  </p>
+
+                                <strong>My role</strong>
+                                <p>Myself being the sole designer working on Engage, I was responsible for understanding the brief, identifying the usability issues, come up with creative ways to solve them and then prototype them to show how they would fit in the existing platform.</p>
+
+                                <strong>Usability issues identified</strong>
+                                <p>
+                                  Since K12Insight actively discourages user research, I had to rely on other ways to do my research and making sure I am solving the right problem.
+
+                                </br></br>  Thus for my research, I used the following resources:
+                                </br>a. Asking the support team: Since these are the people directly in contact with the users and they are sort of the experts in the product, I would get their feedback first.
+                                  </br>b. Client complaints noted over the years: All the client complaints are documented so that nothing is overlooked.
+                                  </br>c. Self usability evaluation using nielsen norman heuristics, comparative analysis, conducting user interviews with employees working on different products.
+                                </p>
+
+                                <p>a. Many tabs have a lot of information while others have little to no information.
+                                </br>b. Some tabs like Account usage data, show a lot of information but are missing important information related to limits imposed on the account.
+                              </br>c. The UI elements in the overall account settings have become inconsistent over the years.
+                                </p>
+
+                                <p>There were a lot of other small issues identified and reworked on but to keep this case study concise, I will mention some of the usability issues identified and resolved.</p>
+
+
+                                <h4>Account Usage Data: Old design</h4>
+                                <img class="img-responsive img-centered" src="img/portfolio/K12insight_accountSettings/images/AccountUsageData_old.png" alt="">
+
+                                <p>
+                                  <b>
+                                    Issues identified
+                                  </b></br>
+                                  a. Too much information presented without much emphasis on anything in particular.
+                                </br>b. Information such as Responses deleted, surveys deleted, invitations deleted are not something that a user is bothered by as it does not affect their total quota.
+                              </br>c. When a limit is shown, user is not sure whether it is the account limit, daily limit or the monthly limit.
+                                </p>
+
+                                <h4>Account Usage Data: New design</h4>
+                                <img class="img-responsive img-centered" src="img/portfolio/K12insight_accountSettings/images/AccountUsageData_new.png" alt="">
+
+
+                                <h4>Side Nav menu: Old design</h4>
+                                <img class="img-responsive img-centered" src="img/portfolio/K12insight_accountSettings/images/SideNavMenu_Old.png" alt="">
+
+                                <p>
+                                  <b>
+                                    Issues identified
+                                  </b></br>
+                                  a. No particular order in which tabs are presented.
+                                  </br>b. Similar tabs like My profile, Linked Account or recent account activity and account security are not adjacent to each other.
+                                  </br>c. Very hard to find a tab unless you scan the complete list.
+                                  </br>d. The number of tabs are too many to make the user unsure of what they are looking for.
+
+                                </p>
+
+                                <h4>Side Nav menu: New design</h4>
+                                <img class="img-responsive img-centered" src="img/portfolio/K12insight_accountSettings/images/SideNavMenu_New.png" alt="">
+
+
+
+                                <h4>Remove Branding: Old design</h4>
+                                <img class="img-responsive img-centered" src="img/portfolio/K12insight_accountSettings/images/RemoveBranding_old.png" alt="">
+
+                                <p>
+                                  <b>
+                                    Issues identified
+                                  </b></br>
+                                  a. Very little information provided and the user is not sure what they are signing up for when they enable the setting.
+                                </br>b. Additionally, on the screen a lot of precious real estate is wasted which can be more efficiently utilized.</p>
+
+                                <h4>Remove Branding: New design</h4>
+                                <img class="img-responsive img-centered" src="img/portfolio/K12insight_accountSettings/images/RemoveBranding_old.png" alt="">
+
+
+                                <h4>Notification center: Old design</h4>
+                                <img class="img-responsive img-centered" src="img/portfolio/K12insight_accountSettings/images/NotificationCenter_old.png" alt="">
+
+                                <p>
+                                  <b>
+                                    Issues identified
+                                  </b></br>
+                                  a. All the notifications appear in the same way and there is no way to distinguish which one in particular to pay attention to.
+                                  </br>b. Outdated UI style.
+                                  </br>c. Nothing to denote unread notifications.
+                                  </br>d. Time stamp is an important information and putting it on the extreme right added extra amount of burden on the user to look at it.
+                                </p>
+
+                                <h4>Notification center: New design</h4>
+                                <img class="img-responsive img-centered" src="img/portfolio/K12insight_accountSettings/images/NotificationCenter_new.png" alt="">
+
+
+                                <strong>Constraints</strong>
+                                <p>
+                                  a. I had a hard time communicating with my PM because of 3 reasons - remote communication, time zone issues (USA and India) and PM had very little understanding of UX as he was promoted to being a PM from an engineering role recently.
+                                </br>b. K12Insight actively discouraged conducting user research and thus I had to look for other ways to make sure I have some substance behind my design.
+                                </p>
+
+                                <strong>Next steps</strong>
+                                <p>The designs were discussed with the PM team as well as the developer team to see if they could point out any loopholes or any part that we may have missed.</p>
+                                <p>
+                                  Currently, the designs are in the beta phase which is supposed to go live with Engage 17.0 on June 21, 2019.
+                                </p>
+
+                                <!-- <strong>Looking back or learnings from the process</strong>
+                                <p>
+
+                                </p> -->
+
+                                <!-- <strong>The Team</strong>
+                                <img class="img-responsive img-centered" src="img/portfolio/T1DAR/Team.jpg" alt=""> -->
+
+                                <div style="text-align:center;">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- T1DAR -->
     <div class="portfolio-modal modal fade" id="portfolioModal_T1DAR" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -1192,7 +1340,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2 style="text-align:center;">T1DAR: AR game to teach kids about Type 1 diabetes</h2>
+                                <h2 style="text-align:center;text-transform: none;">T1DAR: AR game to teach kids about Type 1 diabetes</h2>
                                 <p style="text-align:center;" class="item-intro text-muted">AR game design</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/T1DAR/InProjectCover.jpg" alt="">
                                 <ul style="text-align: center;" class="list-inline">
@@ -1203,29 +1351,29 @@
                                 <strong>Context</strong>
                                 <!--<p>For now: Check it out <a href="https://seelio.com/w/357d/arvr-design-intern-_-lenovo-healthdesignbyus-colab?student=jatingupta">here</a>.</p>-->
                                 <p>This project came about as Phab 2 Pro, Lenovo’s new flagship phone has just come out and they were looking for content for it in order to market it better.</br>
-                                T1DAR is an augmented reality game with a purpose to teach kids suffering from Type1 diabetes about how to take care of themselves, by making them take care of a type 1 diabetic pet.</br>
-                                It is intended for kids in the age group 8-12 and suffering from Type 1 diabetes, whose parents want them to take up a sense of responsibility for their own health.</p>
+                                    T1DAR is an augmented reality game with a purpose to teach kids suffering from Type1 diabetes about how to take care of themselves, by making them take care of a type 1 diabetic pet.</br>
+                                    It is intended for kids in the age group 8-12 and suffering from Type 1 diabetes, whose parents want them to take up a sense of responsibility for their own health.</p>
 
                                 <strong>Why is it a problem?</strong>
-                                <p>a. Kids suffering from Type 1 diabetes go through a lot of struggle in managing it.<br/>
-                                b. They have to make sure to estimate the amount of carbs in the food they are going to eat correctly and then give themselves the correct amount of insulin. Moreover, they have to do it for all the meals that they are going to eat which is too much burden for a kid less than 8 years old.</br>
-                                c. The amount of insulin to be taken for a specific amount of carbs in a meal, can be very difficult to compute as well. Moreover, they have to make sure to take into account the carb ratio and correction factor as well.</br>
-                                d. The educational material provided by clinicians is too long and hard to remember for kids.</br>
-                                e. During the initial years of their life, their parents take care of it. But with time, the parents want the children to take responsibility of their own health. </p>
+                                <p>a. Kids suffering from Type 1 diabetes go through a lot of struggle in managing it.
+                                    <br/> b. They have to make sure to estimate the amount of carbs in the food they are going to eat correctly and then give themselves the correct amount of insulin. Moreover, they have to do it for all the meals that they are going to eat which is too much burden for a kid less than 8 years old.</br>
+                                    c. The amount of insulin to be taken for a specific amount of carbs in a meal, can be very difficult to compute as well. Moreover, they have to make sure to take into account the carb ratio and correction factor as well.</br>
+                                    d. The educational material provided by clinicians is too long and hard to remember for kids.</br>
+                                    e. During the initial years of their life, their parents take care of it. But with time, the parents want the children to take responsibility of their own health. </p>
 
                                 <strong>Initial goal</strong>
                                 <p>To come with a prototype for a game that is fun, engaging, conveys all the learning points and can be tested with the kids at C.S.Mott children’s hospital.</p>
 
                                 <strong>My role</strong>
                                 <p>a. Worked as a game designer to come up with different levels of the game. Brainstormed, sketched, storyboarded and critiqued the different ideas to come up with the design of the level.</br>
-                                b. Prototyped the game in Unity going through various design sprints.</br>
-                                c. Conducted usability tests and A/B tests for validation.</p>
+                                    b. Prototyped the game in Unity going through various design sprints.</br>
+                                    c. Conducted usability tests and A/B tests for validation.</p>
 
                                 <strong>Objectives/success criteria</strong>
 
-                                <p>Before we started working, we decided to define some key objectives that could help guide us through the design process. Some of the main objectives were:<br/>
-                                a.	To make the game fun and engaging.<br/>
-                                b.	Explain the concept of carb ratio, correction factor, insulin,  glucagon etc. to an 8-12 year old diabetic kid.
+                                <p>Before we started working, we decided to define some key objectives that could help guide us through the design process. Some of the main objectives were:
+                                    <br/> a. To make the game fun and engaging.
+                                    <br/> b. Explain the concept of carb ratio, correction factor, insulin, glucagon etc. to an 8-12 year old diabetic kid.
                                 </p>
 
                                 <strong>Research phase</strong>
@@ -1235,9 +1383,11 @@
 
                                 <p>b. Apart from that we carefully observed our in-house patient, a 12 year old girl suffering from Type 1 diabetes and asked her questions at regular intervals to make sure we understood the problem clearly. We were very keen to notice how she calculated the amount of carbs in a given food and what kind of food she preferred.</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/T1DAR/testingPaperPrototype.jpg" alt="">
-                                <p>c.	We performed competitive analysis, to see which all games are out there who are trying to do the same.</p>
+                                <p>c. We performed competitive analysis, to see which all games are out there who are trying to do the same.</p>
 
-                                <strong>Current situation</strong><br/><br/>
+                                <strong>Current situation</strong>
+                                <br/>
+                                <br/>
                                 <img class="img-responsive img-centered" src="img/portfolio/T1DAR/Kit1.jpg" alt="">
                                 <p>This is the actual kit used by Type 1 diabetic kids. Just by looking at the kit it can become extremely overwhelming for a 8 year old kid.</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/T1DAR/InsulinPump.jpg" alt="">
@@ -1248,14 +1398,17 @@
                                 <p>Educational material provided is too much for a kid to grasp and remember.</p>
 
                                 <strong>Execution</strong>
-                                <p>a.	We worked in 2-3 week design sprints following a strict agile methodology. At the end of each sprint, we tested the prototype with a participant.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/T1DAR/SprintReview.jpg" alt=""><br/>
+                                <p>a. We worked in 2-3 week design sprints following a strict agile methodology. At the end of each sprint, we tested the prototype with a participant.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/T1DAR/SprintReview.jpg" alt="">
+                                <br/>
                                 <p>During the sprint, we started off with a brainstorming session, sketching the level design and then prototyping the same in Unity.</p>
 
-                                <img class="img-responsive img-centered" src="img/portfolio/T1DAR/Storyboarding.JPG" alt=""><br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/T1DAR/Storyboarding.JPG" alt="">
+                                <br/>
                                 <img class="img-responsive img-centered" src="img/portfolio/T1DAR/Sketching.JPG" alt="">
 
-                                <strong class="text-aling:center !important;">Objective #1: How to make the game fun?</strong><br/>
+                                <strong class="text-aling:center !important;">Objective #1: How to make the game fun?</strong>
+                                <br/>
                                 <img class="img-responsive img-centered" src="img/portfolio/T1DAR/Dragonasapet.png" alt="">
                                 <p>Rather than having conventional pets, we decided to have a dragon as a pet.</p>
 
@@ -1265,14 +1418,16 @@
                                 <img class="img-responsive img-centered" src="img/portfolio/T1DAR/PrepareAMeal.png" alt="">
                                 <p>Helping the kids, plan a meal of 100 carbs</p>
 
-                                <strong>Objective #2: How to make the game engaging?</strong><br/>
+                                <strong>Objective #2: How to make the game engaging?</strong>
+                                <br/>
                                 <img class="img-responsive img-centered" src="img/portfolio/T1DAR/TimerandHealthBar.png" alt="">
                                 <p>Introduced a timer to have a sense of urgency and a Health Bar to get an accurate feedback of their actions.</p>
 
                                 <img class="img-responsive img-centered" src="img/portfolio/T1DAR/Fireworks.png" alt="">
                                 <p>Have a set of fireworks to have a sense of accomplishment when a kid completes the level.</p>
 
-                                <strong>Objective #3: How to make the game educational and cover all the learning points?</strong><br/>
+                                <strong>Objective #3: How to make the game educational and cover all the learning points?</strong>
+                                <br/>
                                 <img class="img-responsive img-centered" src="img/portfolio/T1DAR/Instructions.png" alt="">
                                 <p>The first level acted as a tutorial for the kids in order to adjust them to the game settings.</p>
 
@@ -1282,7 +1437,8 @@
                                 <img class="img-responsive img-centered" src="img/portfolio/T1DAR/PracticalScenarios.png" alt="">
                                 <p>Making the kids remember the carb amount in a food using practical scenarios.</p>
 
-                                <strong>Conclusion</strong><br/>
+                                <strong>Conclusion</strong>
+                                <br/>
                                 <img class="img-responsive img-centered" src="img/portfolio/T1DAR/Usability test.JPG" alt="">
                                 <p>For conducting usability testing of the game, we tested it by making the kids play the game before we received it with the one that we received afterwards and having them take a survey. We conducted this test with 6 target (or close) users.</p>
 
@@ -1293,7 +1449,8 @@
 
                                 <strong>Next steps</strong>
                                 <p>We had started with the design of next level. However, there were still some things that if given time we would have liked to do.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/T1DAR/Level3.png" alt=""><br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/T1DAR/Level3.png" alt="">
+                                <br/>
 
                                 <img class="img-responsive img-centered" src="img/portfolio/T1DAR/Sublevelmenu.png" alt="">
                                 <p>Making the menu items in a semi circular layout</p>
@@ -1303,11 +1460,11 @@
 
                                 <strong>Looking back or learnings from the process</strong>
                                 <p>
-                                  a.	A game involves many complex interactions and thus it has to be prototyped (developed) in order for the person testing it to get the context right.<br/>
-                                  b.	The ability to exxplain the design changes to a designer which involves changes in their previously employed code is a very important and useful skill.<br/>
-                                  c.	Augmented reality is a very new concept and many people still don’t get the context. Thus making sure that the instructions which corresponds to the augmented reality part of the game are understood by an novice AR user, can go a long way.<br/>
-                                  d.	Hardness of a level in a game needs to be properly balanced. If too hard, the participant gives up but if too easy, it becomes uninteresting. Thus, having a level a little on the harder side makes the user remember the things taught.<br/>
-                                  e.	When aiming for a MVP, try to use and re-use as much of the interactions from the previous level as possible. This ensures consistency and make the player feel comfortable with the game. In terms of prototyping, it makes the task easier.
+                                    a. A game involves many complex interactions and thus it has to be prototyped (developed) in order for the person testing it to get the context right.
+                                    <br/> b. The ability to exxplain the design changes to a designer which involves changes in their previously employed code is a very important and useful skill.
+                                    <br/> c. Augmented reality is a very new concept and many people still don’t get the context. Thus making sure that the instructions which corresponds to the augmented reality part of the game are understood by an novice AR user, can go a long way.
+                                    <br/> d. Hardness of a level in a game needs to be properly balanced. If too hard, the participant gives up but if too easy, it becomes uninteresting. Thus, having a level a little on the harder side makes the user remember the things taught.
+                                    <br/> e. When aiming for a MVP, try to use and re-use as much of the interactions from the previous level as possible. This ensures consistency and make the player feel comfortable with the game. In terms of prototyping, it makes the task easier.
                                 </p>
 
                                 <strong>The Team</strong>
@@ -1374,7 +1531,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2 style="text-align:center;">Usability evaluation: UM LSA Honors website</h2>
+                                <h2 style="text-align:center;text-transform: none;">Usability evaluation: UM LSA Honors website</h2>
                                 <img class="img-responsive img-centered" src="img/portfolio/lsahonors/lsahonorsBanner.png" alt="">
                                 <ul style="text-align: center;" class="list-inline">
                                     <li>Date: January - April 2017</li>
@@ -1383,148 +1540,134 @@
                                 </ul>
 
                                 <strong>Client</strong>
-                                <p>The Honors program is a department within the College of Literature, Science and the Arts at the
-                                   University of Michigan. This department maintains the LSA Honors website, which contains information
-                                   for prospective and current students, faculty and staff, and alumni.</p>
+                                <p>The Honors program is a department within the College of Literature, Science and the Arts at the University of Michigan. This department maintains the LSA Honors website, which contains information for prospective and current students, faculty and staff, and alumni.</p>
 
                                 <strong>Context</strong>
-                                <p>The Honors program recently shifted its website to a new Content management system. Thus the staff is
-                                  forced to transfer all the information from the old website to the new website template which has caused
-                                  problems in the way information is organized and presented.</p>
-                                <p>This problem exacerbated when the number of emails from students unable to find information on the website;
-                                   to the Honors staff increased. Thus, the staff realized the potential usability issues with the website
-                                   including confusing navigation and text heaviness on some of the pages.</p>
+                                <p>The Honors program recently shifted its website to a new Content management system. Thus the staff is forced to transfer all the information from the old website to the new website template which has caused problems in the way information is organized and presented.</p>
+                                <p>This problem exacerbated when the number of emails from students unable to find information on the website; to the Honors staff increased. Thus, the staff realized the potential usability issues with the website including confusing navigation and text heaviness on some of the pages.</p>
 
                                 <strong>My role</strong>
-                                <p>I collaborated with 4 other students from School of Information and was actively involved in each stage of usability evaluation.<br/>
-                                a.     Conducted interviews (as an interviewee and a note-taker)<br/>
-                                b.     Performed comparative analysis, heuristic evaluation and usability (both acting as a moderator and a note-taker)<br/>
-                                c.     Collaborated in the creation of a survey</p>
+                                <p>I collaborated with 4 other students from School of Information and was actively involved in each stage of usability evaluation.
+                                    <br/> a. Conducted interviews (as an interviewee and a note-taker)
+                                    <br/> b. Performed comparative analysis, heuristic evaluation and usability (both acting as a moderator and a note-taker)
+                                    <br/> c. Collaborated in the creation of a survey</p>
                                 <strong>Initial goals</strong>
                                 <p>As we started, we had the goal of making the LSA Honors website more usable and useful for current students.</p>
                                 <strong>Success criteria</strong>
                                 <p>Reduced number of emails from current students, asking about the information already listed on the website.</p>
                                 <strong>Scoping</strong>
-                                <p>Upon recommendation from the client and the current students being the major users of the website, we decided to
-                                  narrow down our scope and focus only on the current students’ section.</p>
-                                  <img class="img-responsive img-centered" src="img/portfolio/lsahonors/currentStudentsSection.png" alt="">
+                                <p>Upon recommendation from the client and the current students being the major users of the website, we decided to narrow down our scope and focus only on the current students’ section.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/lsahonors/currentStudentsSection.png" alt="">
 
-                                <strong>Research Methodology</strong><br/>
-                                <p><b>Research Method#1 : Interaction Mapping</b><br/>
-                                  A static representation of the LSA Honors website highlighted all the possible action states and thus any navigation
-                                  issues (if 2 actions lead to the same place) with the website.
+                                <strong>Research Methodology</strong>
+                                <br/>
+                                <p><b>Research Method#1 : Interaction Mapping</b>
+                                    <br/> A static representation of the LSA Honors website highlighted all the possible action states and thus any navigation issues (if 2 actions lead to the same place) with the website.
                                 </p>
                                 <img class="img-responsive img-centered" src="img/portfolio/lsahonors/InteractionMapSketch.png" alt="">
                                 <img class="img-responsive img-centered" src="img/portfolio/lsahonors/InteractionMapFinal.png" alt="">
 
-                                <p><b>Research Method#2 : Interviews</b><br/>
-                                  We conducted interviews with 5 current LSA Honors students to find out about the kind of information they look
-                                  for and the methods employed by them in order to find it.
+                                <p><b>Research Method#2 : Interviews</b>
+                                    <br/> We conducted interviews with 5 current LSA Honors students to find out about the kind of information they look for and the methods employed by them in order to find it.
                                 </p>
                                 <img class="img-responsive img-centered" src="img/portfolio/lsahonors/JoshPersona.png" alt="">
 
-                                <p><b>Research Method#3 : Comparative analysis</b><br/>
-                                  Through this, we wanted to see how other similar websites handle the issues
-                                  related to information hierarchy, navigation structure etc.
+                                <p><b>Research Method#3 : Comparative analysis</b>
+                                    <br/> Through this, we wanted to see how other similar websites handle the issues related to information hierarchy, navigation structure etc.
                                 </p>
                                 <img class="img-responsive img-centered" src="img/portfolio/lsahonors/Sweetlandpresentation.png" alt="">
                                 <p>Presentation of information by LSA Sweetland writing center website.</p>
 
-                                <p><b>Research Method#4 : Surveys</b><br/>
-                                  To find quantitative data about the information seeking behavior and the overall attitude of current students towards the website. Received a total of 28 responses.</p>
-                                  <p><b>In person help was the most frequently utilized method for finding information on the LSA Honors website.</b></p>
+                                <p><b>Research Method#4 : Surveys</b>
+                                    <br/> To find quantitative data about the information seeking behavior and the overall attitude of current students towards the website. Received a total of 28 responses.</p>
+                                <p><b>In person help was the most frequently utilized method for finding information on the LSA Honors website.</b></p>
 
-                                  <p><b>Research Method#5 : Heuristic evaluation</b><br/>
-                                    Our goal here was to identify usability issues and areas where the site could be improved. We used heuristics like Visibility of System Status,
-                                    Consistency and Standards, accessibility etc. to conduct our evaluation.
-                                  </p>
-                                  <img class="img-responsive img-centered" src="img/portfolio/lsahonors/a11y.png" alt="">
-                                  <p>Using WAVE Accessibility system detects issues such as missing alt text, empty heading and links, problematic alt texts, etc.</p>
+                                <p><b>Research Method#5 : Heuristic evaluation</b>
+                                    <br/> Our goal here was to identify usability issues and areas where the site could be improved. We used heuristics like Visibility of System Status, Consistency and Standards, accessibility etc. to conduct our evaluation.
+                                </p>
+                                <img class="img-responsive img-centered" src="img/portfolio/lsahonors/a11y.png" alt="">
+                                <p>Using WAVE Accessibility system detects issues such as missing alt text, empty heading and links, problematic alt texts, etc.</p>
 
-                                  <p><b>Research Method#6 : Usability testing</b><br/>
-                                    We conducted usability tests with 5 current students to identify how several features of the website like top-level and side navigation menus, quick links,
-                                    search bar, accordions, headings etc. are helping the users to find the information they are looking for.
+                                <p><b>Research Method#6 : Usability testing</b>
+                                    <br/> We conducted usability tests with 5 current students to identify how several features of the website like top-level and side navigation menus, quick links, search bar, accordions, headings etc. are helping the users to find the information they are looking for.
                                     <p><b>Due to large amounts of text on pages, users used Ctrl+F (browser find functionality) to look for information.</b></p>
 
-                                <strong>Main findings and recommendations</strong>
-                                <p>1)   Navigation terminology could be improved: Information about some topics could be found at more than 2 places which makes it hard for the user to
-                                  remember where to find it. Also, when asked to find out about the Sophomore Honors award, all our usability test participants looked under Honors Awards
-                                  and Grants page, which is understandable. However, the information is located under the Sophomore students page or the Honors requirements page.</p>
+                                    <strong>Main findings and recommendations</strong>
+                                    <p>1) Navigation terminology could be improved: Information about some topics could be found at more than 2 places which makes it hard for the user to remember where to find it. Also, when asked to find out about the Sophomore Honors award, all our usability test participants looked under Honors Awards and Grants page, which is understandable. However, the information is located under the Sophomore students page or the Honors requirements page.</p>
 
-                                <p><b>Recommendation</b><br/>
-                                  a. More descriptive titles can be used for the pages that help the users in understanding what the page might contain.<br/>
-                                  For eg.
-                                </p>
-                                <img class="img-responsive img-centered" src="img/portfolio/lsahonors/undescriptiveTitle.png" alt="">
-                                <p>The Graduation for Honors Majors page talks in great detail about the process of completing an Honors Thesis, which is something that users may not
-                                  be able to guess from the page title.</p>
+                                    <p><b>Recommendation</b>
+                                        <br/> a. More descriptive titles can be used for the pages that help the users in understanding what the page might contain.
+                                        <br/> For eg.
+                                    </p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lsahonors/undescriptiveTitle.png" alt="">
+                                    <p>The Graduation for Honors Majors page talks in great detail about the process of completing an Honors Thesis, which is something that users may not be able to guess from the page title.</p>
 
-                                  <p>2) Unclear information hierarchy on a page, which makes the pages hard to skim and thus relevant information being buried in a heap of text.<br/>
-                                    a.   Many pages contain just a wall of text.
-                                    b.    Pages lack headings and subheadings.
-                                  </p>
-                                  <img class="img-responsive img-centered" src="img/portfolio/lsahonors/walloftext.png" alt="">
+                                    <p>2) Unclear information hierarchy on a page, which makes the pages hard to skim and thus relevant information being buried in a heap of text.
+                                        <br/> a. Many pages contain just a wall of text. b. Pages lack headings and subheadings.
+                                    </p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lsahonors/walloftext.png" alt="">
 
-                                  <p><b>Recommendation</b><br/>
-                                    a.     Add proper subheadings.<br/>
-                                    b.     Make use of lists, indentation and bolded text to emphasize important information.
-                                  </p>
-                                  <img class="img-responsive img-centered" src="img/portfolio/lsahonors/SweetlandChunking.png" alt="">
-                                  <p>LSA Sweetland writing center’s website uses bold texts and headings which makes it really easy to locate information.</p>
+                                    <p><b>Recommendation</b>
+                                        <br/> a. Add proper subheadings.
+                                        <br/> b. Make use of lists, indentation and bolded text to emphasize important information.
+                                    </p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lsahonors/SweetlandChunking.png" alt="">
+                                    <p>LSA Sweetland writing center’s website uses bold texts and headings which makes it really easy to locate information.</p>
 
-                                  <p>3)    Accessibility issues - Recently, University of California Berkeley was asked to take off some of its free educational
-                                    content as it was not accessible to people who were blind, deaf or hard of hearing. Read the complete article
-                                    <a href="https://www.washingtonpost.com/local/education/why-uc-berkeley-is-restricting-access-to-thousands-of-online-lecture-videos/2017/03/15/074e382a-08c0-11e7-a15f-a58d4a988474_story.html?utm_term=.6459b0aba510" target='_blank'>here</a>.
-                                    Owing to that, we checked the website for accessibility standards and found several issues:<br/>
-                                    a. Alt text attribute not set for many images, thus using the website could be challenge for screen reader users.
-                                  </p>
-                                  <img class="img-responsive img-centered" src="img/portfolio/lsahonors/a11y_1.png" alt=""><br/>
-                                  <span>Using WAVE Accessibility system detects issues such as missing alt text, empty heading and links, problematic alt texts, etc.</span>
-                                  <p>In addition, Heading levels are often skipped, and b tags are often used instead of h headings, which keeps screen reader users from skimming the webpage.</p>
-
-                                  <p>b. Color contrast below the 4.5:1 standard. Sometimes there is low contrast between the different elements on the page.</p>
-                                  <img class="img-responsive img-centered" src="img/portfolio/lsahonors/a11y_2.png" alt=""><br/>
-
-                                  <p>c)     Use of b tags for headings. Screen reader applications rely on heading tags to jump to different parts of the page. Incorrect use of heading tags decreases the
-                                    skimmability of the webpages for screen reader users.</p>
-                                  <img class="img-responsive img-centered" src="img/portfolio/lsahonors/a11y_3.png" alt=""><br/>
-                                  <span>Using b tags for headings</span><br/>
+                                    <p>3) Accessibility issues - Recently, University of California Berkeley was asked to take off some of its free educational content as it was not accessible to people who were blind, deaf or hard of hearing. Read the complete article
+                                        <a href="https://www.washingtonpost.com/local/education/why-uc-berkeley-is-restricting-access-to-thousands-of-online-lecture-videos/2017/03/15/074e382a-08c0-11e7-a15f-a58d4a988474_story.html?utm_term=.6459b0aba510" target='_blank'>here</a>. Owing to that, we checked the website for accessibility standards and found several issues:
+                                        <br/> a. Alt text attribute not set for many images, thus using the website could be challenge for screen reader users.
+                                    </p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lsahonors/a11y_1.png" alt="">
                                     <br/>
-                                    <p><b>Recommendations</b><br/>
-                                      a.     Add meaningful alt text to images. This will make sure that the website complies with the ADA (Americans with disabilities act) and make
-                                      it more accessible to its diverse range of users.<br/>
-                                      b.     Using proper HTML tags for headings (h2, h3 instead of h4 and b).
-                                          Adding proper HTML tags like h2, h3 rather than b, would make it easier for screen reader users to skim the webpages.<br/>
-                                      c. Use color contrast checker to make sure the color contrast meets the standard.
+                                    <span>Using WAVE Accessibility system detects issues such as missing alt text, empty heading and links, problematic alt texts, etc.</span>
+                                    <p>In addition, Heading levels are often skipped, and b tags are often used instead of h headings, which keeps screen reader users from skimming the webpage.</p>
+
+                                    <p>b. Color contrast below the 4.5:1 standard. Sometimes there is low contrast between the different elements on the page.</p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lsahonors/a11y_2.png" alt="">
+                                    <br/>
+
+                                    <p>c) Use of b tags for headings. Screen reader applications rely on heading tags to jump to different parts of the page. Incorrect use of heading tags decreases the skimmability of the webpages for screen reader users.</p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lsahonors/a11y_3.png" alt="">
+                                    <br/>
+                                    <span>Using b tags for headings</span>
+                                    <br/>
+                                    <br/>
+                                    <p><b>Recommendations</b>
+                                        <br/> a. Add meaningful alt text to images. This will make sure that the website complies with the ADA (Americans with disabilities act) and make it more accessible to its diverse range of users.
+                                        <br/> b. Using proper HTML tags for headings (h2, h3 instead of h4 and b). Adding proper HTML tags like h2, h3 rather than b, would make it easier for screen reader users to skim the webpages.
+                                        <br/> c. Use color contrast checker to make sure the color contrast meets the standard.
                                     </p>
 
+                                    <strong>Next steps</strong>
+                                    <p>a. Research and analyze the more frequently visited pages using Google analytics data and use these findings to inform a redesign of the website’s information hierarchy.
+                                        <br/> b. Complete a card sorting activity, in which participants organize topics into categories that make more sense to them, to reorganize the website’s information.
+                                    </p>
+                                    <strong>Shortcomings in the study</strong>
+                                    <p>
+                                        1) Many of our recruited participants either were associated with the LSA Honors staff or were extremely familiar with the Honors website.
+                                        <br/> 2) Even after waiting for 2 weeks, we were only able to get 28 participants to respond to our survey, out of a total of 1900. Thus, the confidence level in the results obtained was very low.
+                                        <br/> a) Could have offered a raffle to encourage people to take the survey.
+                                        <br/> b) Employed other ways like approaching faculty to ask students in their class to take the survey.
+                                        <br/> 3) All of our interviewees were freshman students which didn’t give us the complete perspective of the website usage by current students.
+                                        <br/> a) Offering participants some incentives to participate in our study could have got us a more diverse set of participants.
+                                    </p>
 
-                                <strong>Next steps</strong>
-                                <p>a. Research and analyze the more frequently visited pages using Google analytics data and use these findings to inform a redesign of the website’s information hierarchy.<br/>
-                                   b. 	Complete a card sorting activity, in which participants organize topics into categories that make more sense to them, to reorganize the website’s information.
-                                </p>
-                                <strong>Shortcomings in the study</strong>
-                                <p>
-                                  1)    Many of our recruited participants either were associated with the LSA Honors staff or were extremely familiar with the Honors website.<br/>
-                                  2)    Even after waiting for 2 weeks, we were only able to get 28 participants to respond to our survey, out of a total of 1900. Thus, the confidence level in the results obtained was very low.<br/>
-                                    a)	Could have offered a raffle to encourage people to take the survey.<br/>
-                                    b)	Employed other ways like approaching faculty to ask students in their class to take the survey.<br/>
-                                  3)    All of our interviewees were freshman students which didn’t give us the complete perspective of the website usage by current students.<br/>
-                                    a)	Offering participants some incentives to participate in our study could have got us a more diverse set of participants.
-                                </p>
+                                    <strong>Looking back</strong>
+                                    <p>
+                                        a. The timing of the survey could impact the results a lot. Since our survey was sent over the spring break, we were able to get very less responses on it.
+                                        <br/> b. Confirming assumptions using the web analytics data is a really good idea, but it should be done earlier in the process. In our case, we got the analytics very late in the process and thus we could not look at it carefully due to time constraints and adapt accordingly.
+                                    </p>
 
-                                <strong>Looking back</strong>
-                                <p>
-                                  a. The timing of the survey could impact the results a lot. Since our survey was sent over the spring break, we were able to get very less responses on it.<br/>
-                                  b. Confirming assumptions using the web analytics data is a really good idea, but it should be done earlier in the process. In our case, we got the analytics very late in the process and thus we could not look at it carefully due to time constraints and adapt accordingly.
-                                </p>
+                                    <strong>The Team</strong>
+                                    <br/>
+                                    <br/>
+                                    <img class="img-responsive img-centered" src="img/portfolio/lsahonors/team.png" alt="">
+                                    <br/>
 
-                                <strong>The Team</strong><br/><br/>
-                                <img class="img-responsive img-centered" src="img/portfolio/lsahonors/team.png" alt=""><br/>
-
-                                <div style="text-align:center;">
-                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                                </div>
+                                    <div style="text-align:center;">
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -1547,8 +1690,8 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2 style="text-align:center;">Memorabilia</h2>
-                                <h3 style="text-align:center;"> Novel social computing app to share your memories at a particular location, anonymously.</h3>
+                                <h2 style="text-align:center;text-transform: none;">Memorabilia</h2>
+                                <h3 style="text-align:center;text-transform: none;"> Novel social computing app to share your memories at a particular location, anonymously.</h3>
                                 <!--<p style="text-align:center;" class="item-intro text-muted">Product design</p>-->
                                 <img class="img-responsive img-centered" src="img/portfolio/Memorabilia/Memorabilia_CoverPhoto.png" alt="">
                                 <ul style="text-align: center;" class="list-inline">
@@ -1558,9 +1701,9 @@
                                 </ul>
                                 <strong>Context</strong>
                                 <p>Memorabilia is a novel social computing application which allows people to share memories at a particular location anonymously.</br>
-                                a. Create a memory at a particular location which can be accessed by anonymous users visiting that   location.</br>
-                                b. Take a look at all the memories created at a location, to know about the location history.</br>
-                                c.Create a map of all the memories created by you at different locations over time.</p>
+                                    a. Create a memory at a particular location which can be accessed by anonymous users visiting that location.</br>
+                                    b. Take a look at all the memories created at a location, to know about the location history.</br>
+                                    c.Create a map of all the memories created by you at different locations over time.</p>
 
                                 <strong>Why is it a problem?</strong>
                                 <p>The university of Michigan diag is a very popular place on the campus showcasing a big M and offers a very scenic view of the different campus buildings around it.</p>
@@ -1571,33 +1714,32 @@
                                 <img class="img-responsive img-centered" src="img/portfolio/Memorabilia/Diag4.png" alt="">
 
                                 <strong>Figured out the problem yet?</strong>
-                              </br>
+                                </br>
                                 <p>This is the diag at 4 different years in the past.</br>
-                                </br>But today when someone visits this place, they have no idea about what previously has happened in this place. And thus, they always find themselves wanting to find out more about the history of the place as to what made this place popular. </br>
+                                    </br>But today when someone visits this place, they have no idea about what previously has happened in this place. And thus, they always find themselves wanting to find out more about the history of the place as to what made this place popular. </br>
 
-                              </br>If you try to google search for the past of a place, the results obtained are not exactly defining of what has happened in the past at a particular location.
-                              </br>
+                                    </br>If you try to google search for the past of a place, the results obtained are not exactly defining of what has happened in the past at a particular location.
+                                    </br>
                                 </p>
 
                                 <strong>Initial goal</strong>
                                 <p>Devising and designing a novel social computing system, validating it and then developing and deploying the same on Amazon AWS.</p>
 
                                 <strong>My role</strong>
-                                <p>I collaborated with 2 other designers from the School of Information and was actively involved in each stage of the process including research using interviews, competitive analysis, field testing and affinity wall and sketched and designed wireframes in Balsamiq for concept testing.
-                                I also took lead in the development stage and guided the other designers on how to go forward with the design in order to develop it.</p>
+                                <p>I collaborated with 2 other designers from the School of Information and was actively involved in each stage of the process including research using interviews, competitive analysis, field testing and affinity wall and sketched and designed wireframes in Balsamiq for concept testing. I also took lead in the development stage and guided the other designers on how to go forward with the design in order to develop it.</p>
 
                                 <strong>Objectives</strong>
 
-                                <p>Before we started working, we decided to define some key objectives that could help guide us through the design process. Some of the main objectives were:<br/>
-                                a.	Allow people to be able to discover random memories to inculcate a sense of serendipity.<br/>
-                                b.	Encouraging people to know more about a location bypassing time restrictions.<br/>
-                                c.	Encouraging conversation between random strangers.<br/>
-                                d.	Making people discover different locations based on memories created.
+                                <p>Before we started working, we decided to define some key objectives that could help guide us through the design process. Some of the main objectives were:
+                                    <br/> a. Allow people to be able to discover random memories to inculcate a sense of serendipity.
+                                    <br/> b. Encouraging people to know more about a location bypassing time restrictions.
+                                    <br/> c. Encouraging conversation between random strangers.
+                                    <br/> d. Making people discover different locations based on memories created.
                                 </p>
 
                                 <strong>Success criteria</strong>
                                 <p>a. How many of the users come back to using the app?</br>
-                                b. How many users sign up to start using the app?</p>
+                                    b. How many users sign up to start using the app?</p>
 
                                 <strong>Research phase</strong>
                                 <p>Looked at movie trailers of movies like Harry potter pensieve and The Lake House, for inspiration related to how to depict memories.</p>
@@ -1606,18 +1748,17 @@
 
                                 <p>We found our closest competitor in <a href="https://techcrunch.com/2014/08/05/drop-the-location-based-messenger-closes-1-25m-from-atlas-ventures-spark-capital/">Drop Messages</a>.</p>
 
-
                                 <p>Observational interviews with college students (most accessible and form a substantial chunk of users of social media apps). Our questions were chunked into themes including creating memories, storing memories, sharing memories, location memories and interesting memories, so as to give us a overview of how people currently think about memories in general.</p>
 
                                 <p>From the interview data, we created an affinity wall.</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/Memorabilia/AffinityWall.png" alt="">
 
                                 <p>Main findings from the affinity wall:</br>
-                                a. Location is worth a 1000 stories.</br>
-                                b. People want to review selective memories (filters) </br>
-                                c. Personal (unusual,identity) experiences matter  </br>
-                                d. Memories are multifaceted (moments, long term, different representations) </br>
-                                e. Sharing is depending on relevance/relation (strangers/friends) and context.
+                                    a. Location is worth a 1000 stories.</br>
+                                    b. People want to review selective memories (filters) </br>
+                                    c. Personal (unusual,identity) experiences matter </br>
+                                    d. Memories are multifaceted (moments, long term, different representations) </br>
+                                    e. Sharing is depending on relevance/relation (strangers/friends) and context.
                                 </p>
 
                                 <p>Thus we began brainstorming into potential ideas for sketching and came up with a preliminary set of sketches to lay out the design of the idea.</p>
@@ -1630,7 +1771,7 @@
                                 <img class="img-responsive img-centered" src="img/portfolio/Memorabilia/Sketch2.jpg" alt="">
 
                                 <strong>Validating features</strong>
-                                <p>For validating the features, we created wireframes and then took the concept to the field and asked our users questions like  interesting features, kind of memories, sharing memories with anonymous users.</p>
+                                <p>For validating the features, we created wireframes and then took the concept to the field and asked our users questions like interesting features, kind of memories, sharing memories with anonymous users.</p>
                                 <img class="img-responsive img-centered" src="img/portfolio/Memorabilia/ConceptTesting.png" alt="">
 
                                 <p>Thus based on the concept testing, feedback from other designers and considering the timeline of the project, we came up with a scope to reach the MVP.</p>
@@ -1653,9 +1794,9 @@
 
                                 <strong>Learnings from the process</strong>
                                 <p>
-                                a. Got a deeper understanding of social computing systems through the perspective of anonymity and moderation and the concept of social object. </br>
-                                b. Learned how to scope the features for a MVP with constraints and limitations. </br>
-                                c. When working on a new concept, validating the idea before committing to it fully is a good idea.
+                                    a. Got a deeper understanding of social computing systems through the perspective of anonymity and moderation and the concept of social object. </br>
+                                    b. Learned how to scope the features for a MVP with constraints and limitations. </br>
+                                    c. When working on a new concept, validating the idea before committing to it fully is a good idea.
                                 </p>
 
                                 <strong>The Team</strong>
@@ -1671,7 +1812,6 @@
             </div>
         </div>
     </div>
-
 
     <!-- Graphic design works -->
     <div class="portfolio-modal modal fade" id="portfolioModal_graphicdesign" tabindex="-1" role="dialog" aria-hidden="true">
@@ -1689,29 +1829,37 @@
                             <div class="modal-body">
                                 <h2 style="text-align:center;">Graphic design</h2>
                                 <p style="text-align:center;" class="item-intro text-muted">Some of my graphic design works. Complete collection can be found <a href="http://bit.ly/jatinBehance" target="_blank">here</a>.</p>
-                                <ul style="text-align: center;" class="list-inline">
+                                <!-- <ul style="text-align: center;" class="list-inline">
                                     <li>Date: Sep - Dec 2017</li>
                                     <li style="margin: 0 10px 0 10px;">Client: None</li>
-                                    <li>Category: Graphic design</li>
-                                </ul>
-
+                                    <li>Category:  Graphic design</li>
+                                </ul> -->
 
                                 <!--<img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/BannersForCoursePromotion.jpg" alt="">-->
 
-                                <h3 style="text-align: center; padding-top: 15%;padding-bottom: 4%;">A design trend making use of botanical illustrations.</h3>
+                                <!-- Botanical Illustration design -->
+                                <h3 style="text-align: center; padding-top: 5%;padding-bottom: 4%;text-transform: none;">A design trend making use of botanical illustrations.</h3>
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/Collage.jpg" style="border: 1px solid;border-color: rgba(201, 76, 76, 0.3);" alt="">
 
-                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/Collage.jpg" style="border: 1px solid;" alt="">
+                                <!-- Portfolio Redesign for web -->
+                                <h3 style="text-align: center; padding-top: 15%;padding-bottom: 4%;text-transform: none;">Redesigning my personal portfolio for web.</h3>
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/PortfolioDesign1.jpg" style="border: 1px solid;border-color: rgba(201, 76, 76, 0.3);" alt="">
 
-                                <h3 style="text-align: center; padding-top: 15%;padding-bottom: 4%;">Redesigning my personal portfolio for web.</h3>
-                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/PortfolioDesign1.jpg" style="border: 1px solid;" alt="">
+                                <!-- Portfolio Redesign for mobile -->
+                                <h3 style="text-align: center; padding-top: 15%;padding-bottom: 4%;text-transform: none;">Redesigning my personal portfolio for mobile.</h3>
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/PhoneScreen.jpg" style="width: 50%;border: 1px solid;border-color: rgba(201, 76, 76, 0.3);" alt="">
 
-                                <h3 style="text-align: center; padding-top: 15%;padding-bottom: 4%;">Redesigning my personal portfolio for mobile.</h3>
+                                <!-- ASB T-shirt design -->
+                                <h3 style="text-align: center; padding-top: 15%;padding-bottom: 4%;text-transform: none;">T-shirt design for Alternative Spring Break</h3>
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/asb_tshirt.jpg" alt="">
 
-                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/PhoneScreen.jpg" style="width: 50%;border: 1px solid;" alt="">
+                                <!-- Internship Infographic -->
+                                <h3 style="text-align: center; padding-top: 15%;padding-bottom: 4%;text-transform: none;">Infographic summarising my internship with Lenovo</h3>
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/internship_infographic.jpg" alt=" ">
 
-                                <h3 style="text-align: center; padding-top: 15%;padding-bottom: 4%;">UMSI website redesign.</h3>
-
-                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/WebsiteRedesign.jpg" style="border: 1px solid;" alt="">
+                                <!-- Mailbox Illustration -->
+                                <h3 style="text-align: center; padding-top: 15%;padding-bottom: 4%;text-transform: none;">Mailbox Illustration for K12Insight</h3>
+                                <img class="img-responsive img-centered " src="img/portfolio/visualDesign/graphicDesignWorks/inbox_illustration.png " " alt="">
 
                                 <div style="text-align:center;">
                                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
@@ -1907,8 +2055,6 @@
 
                                 <p style="text-align:center;font-size:20px;"><strong>PROFILE PAGE OF AN ADVISOR</strong></p>
                                 <img class="img-responsive img-centered" src="img/portfolio/visualDesign/shot1.png" alt="">
-
-
 
                                   <ul style="text-align: center;" class="list-inline">
                                     <li>Date: September 2016 - Present</li>
