@@ -423,6 +423,16 @@ footer ul.quicklinks {
   font-weight:bold;
   text-transform:none
 }
+
+.medium-title-2{
+  font-weight: 700;
+  line-height: 1.64;
+  font-size: 18px;
+  letter-spacing: -0.003em;
+  margin-top: 12px;
+  margin-bottom:40px
+}
+
 .medium-body{
     font-weight: 350;
     line-height: 1.64;
