@@ -386,7 +386,8 @@ section h3.section-subheading {
     margin: 0 auto;
     background-color: #fff;
     text-align: center;
-    padding: 25px
+    padding: 5%;
+    min-height: 90px;
 }
 #portfolio .portfolio-item .portfolio-caption h4,
 #graphic .portfolio-item .portfolio-caption
@@ -413,6 +414,13 @@ footer ul.quicklinks {
      #graphic .portfolio-item{
         margin: 0 0 30px
     }
+}
+
+.portfolio-thumbnail-text
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .medium-title{
