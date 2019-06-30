@@ -89,7 +89,7 @@
                         </div>
                     </li>
                     <li>
-                        <a class="page-scroll" href="Resume_JatinGupta_ProductDesigner.pdf" target='_blank'>Resume</a>
+                        <a class="page-scroll" href="Resume_JatinGupta.pdf" target='_blank'>Resume</a>
                     </li>
                 </ul>
             </div>
@@ -129,6 +129,7 @@
                     </div>
 
                 </div>
+                <!--<a href="#about" class="page-scroll btn btn-xl">Find out more about me</a>-->
             </div>
         </div>
     </header>
@@ -141,6 +142,7 @@
                     <h2 class="section-heading">Portfolio</h2>
 
                     <h3 class="section-subheading text-muted">Here are some of the projects that I have worked on.</h3>
+                    <!--<h3 class="section-subheading text-muted">Looking for <a class="page-scroll" href="#graphic"><u style="color:#a98818;"><b>visual Designs</b></u></a>.</h3>-->
                 </div>
             </div>
             <div class="row">
@@ -172,6 +174,7 @@
                     </a>
                     <div class="portfolio-caption portfolio-thumbnail-text">
                         <h4>UI/UX design: K12 Insight Account Settings</h4>
+                        <!-- <div><p class="text-muted" style="text-transform:none; text-align:left; font-size:14px;">Usability evaluation of account settings at K12 Insight.</p></div> -->
                     </div>
                 </div>
 
@@ -239,12 +242,228 @@
                     </div>
                 </div>
 
+                <! ------------Tecaid----------------------!>
+                <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/tecaid/coverTecaid.jpg" class="img-responsive" alt="" style='object-fit: fill;width:360px;height:240px;'>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>TECAID</h4>
+                        <p class="text-muted">App to help baby boomers with their technical problems.</p>
+                    </div>
+                </div> -->
+
+                <! ------------New Eagle----------------------!>
+                <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+                            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/newEagle/coverNewEagle.jpg" class="img-responsive" alt="" style='width:360px;height:240px;'>
+                            </a>
+                            <div class="portfolio-caption">
+                                <h4>New Eagle</h4>
+                                <p class="text-muted">Finding gaps in the order fulfillment process of New Eagle.</p>
+                            </div>
+                </div> -->
+
+                <! ------------Itineraire----------------------!>
+                <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Itineraire/cover.jpg" class="img-responsive" alt="" style='width:360px;height:240px;'>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Itinéraire</h4>
+                        <p class="text-muted">A location based itinerary sharing mobile application.           </p>
+                    </div>
+                </div> -->
+
+                <! ------------Innovation in Action----------------------!>
+                <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+                   <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                       <div class="portfolio-hover">
+                           <div class="portfolio-hover-content">
+                               <i class="fa fa-plus fa-3x"></i>
+                           </div>
+                       </div>
+                       <img src="img/portfolio/iia/climatechange.jpg" class="img-responsive" alt="" style='width:360px;height:240px;'>
+                   </a>
+                   <div class="portfolio-caption">
+                       <h4>Abaca Games</h4>
+                       <p class="text-muted">Helping high school students fight against climate change.</p>
+                   </div>
+               </div> -->
+
+                <! ------------Integrated Product development----------------------!>
+                <!--<div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/ipd/pic1.JPG" class="img-responsive" alt="" style='width:360px;height:240px;'>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>STIL</h4>
+                        <p class="text-muted">Product design</p>
+                    </div>
+                </div>-->
+
+                <! ------------Alternative Spring Break----------------------!>
+                <!--<div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/asb/PIMSAnalysis.png" class="img-responsive" alt="" style='width:360px;height:240px;'>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Prevent Child Abuse America</h4>
+                        <p class="text-muted">UX Researcher: Usability evaluation</p>
+                    </div>
+                </div>-->
+
+                <! ------------ Visual design samples ----------------------!>
+                <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/visualDesign/shot2.png" class="img-responsive" alt="" style='width:360px;height:240px;'>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Sample Interactions</h4>
+                        <p class="text-muted">Visual Design</p>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <!--Graphic design section-->
+    <!--<section id="graphic" class="bg-darkest-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading" style="color:#fff;">graphic design</h2>
+
+                    <h3 class="section-subheading text-muted">Some of my visual design works. <a href="http://bit.ly/jatinBehance" target="_blank">View more.</a></h3>
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="row">
+
+                  <! ------------Intro Slide---------------------->
+    <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+                          <a href="#graphicModal1" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                              <img src="img/portfolio/visualDesign/graphicDesignWorks/IntroSlide/Final.png" class="img-responsive" alt="" style='object-fit: cover;width:360px;height:240px;'>
+                          </a>
+                          <div class="portfolio-caption">
+                              <h4>Intro Slide</h4>
+                              <p class="text-muted">A one pager about my interests and favorites.</p>
+                          </div>
+                      </div> -->
+    <! ------------Collage---------------------->
+    <!--<div class="col-md-4 col-sm-6 portfolio-item">
+                              <a href="#graphicModal3" class="portfolio-link" data-toggle="modal">
+                                  <div class="portfolio-hover">
+                                      <div class="portfolio-hover-content">
+                                          <i class="fa fa-plus fa-3x"></i>
+                                      </div>
+                                  </div>
+                                  <img src="img/portfolio/visualDesign/graphicDesignWorks/Collage/Collage.jpg" class="img-responsive" alt="" style='object-fit: cover;width:360px;height:240px;'>
+                              </a>
+                              <div class="portfolio-caption">
+                                  <h4>Layered Collage poster</h4>
+                                  <p class="text-muted">A design trend making use of botanical illustrations.</p>
+                              </div>
+                          </div>-->
+
+    <! ------------UMSI website redesign---------------------->
+    <!--<div class="col-md-4 col-sm-6 portfolio-item">
+                                      <a href="#graphicModal4" class="portfolio-link" data-toggle="modal">
+                                          <div class="portfolio-hover">
+                                              <div class="portfolio-hover-content">
+                                                  <i class="fa fa-plus fa-3x"></i>
+                                              </div>
+                                          </div>
+                                          <img src="img/portfolio/visualDesign/graphicDesignWorks/WebsiteRedesign/WebsiteRedesign.jpg" class="img-responsive" alt="" style='object-fit: cover;width:360px;height:240px;'>
+                                      </a>
+                                      <div class="portfolio-caption">
+                                          <h4>UMSI website redesign</h4>
+                                          <p class="text-muted">Redesigning the website of </br>UMSI.</p>
+                                      </div>
+                                  </div>-->
+
+    <! ------------Portfolio website redesign---------------------->
+    <!--<div class="col-md-4 col-sm-6 portfolio-item">
+                                          <a href="#graphicModal5" class="portfolio-link" data-toggle="modal">
+                                              <div class="portfolio-hover">
+                                                  <div class="portfolio-hover-content">
+                                                      <i class="fa fa-plus fa-3x"></i>
+                                                  </div>
+                                              </div>
+                                              <img src="img/portfolio/visualDesign/graphicDesignWorks/PortfolioWebsiteRedesign/PortfolioDesign1.jpg" class="img-responsive" alt="" style='object-fit: cover;width:360px;height:240px;'>
+                                          </a>
+                                          <div class="portfolio-caption">
+                                              <h4>Portfolio website redesign</h4>
+                                              <p class="text-muted">Redesigning personal </br>portfolio.</p>
+                                          </div>
+                                      </div>-->
+
+    <! ------------Alphabet Poster---------------------->
+    <!--<div class="col-md-4 col-sm-6 portfolio-item">
+                                                  <a href="#graphicModal2" class="portfolio-link" data-toggle="modal">
+                                                      <div class="portfolio-hover">
+                                                          <div class="portfolio-hover-content">
+                                                              <i class="fa fa-plus fa-3x"></i>
+                                                          </div>
+                                                      </div>
+                                                      <img src="img/portfolio/visualDesign/graphicDesignWorks/AlphabetPoster/Hw4_alphabet.png" class="img-responsive" alt="" style='object-fit: cover;width:360px;height:240px;'>
+                                                  </a>
+                                                  <div class="portfolio-caption">
+                                                      <h4>Alphabet Poster</h4>
+                                                      <p class="text-muted">A poster showing the diversity of characters in Quentin Tarantino movies.</p>
+                                                  </div>
+                                              </div> -->
+
+    <!--</div>
+        </div>
+    </section>-->
+
     <!-- About Section -->
     <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About me</h2>
+                    <!-- <br/>
+                    <h5>
+                      <a href="#blurb">Blurb</a> | <a href="#testimonials">Testimonials</a> | <a href="#pitch">My Passion Pitch</a>
+                    </h5> -->
                 </div>
             </div>
             <div class="row" id="blurb">
@@ -253,7 +472,7 @@
                         <tr>
                             <td><img class="img-responsive" src="img/about/AboutImage.jpg" alt="" style="width: 80%;margin: 0 auto;"></td>
                             <td style="padding-left: 7%;font-family: avenir;font-size: 12pt;">
-                                Here are some random facts about me:
+                                Here are some things about me:
                                 </br>
                                 </br>
                                 <ul>
@@ -279,6 +498,26 @@
                             </td>
                         </tr>
                     </table>
+
+                    <!-- <ul class="timeline">
+
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/AboutImage.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">FUN SIDE OF ME</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">I like reading a lot. Love to travel and explore. I believe we should
+                                    everyday try to do something that makes us afraid because fear is what brings out our true self. I like to
+                                    play ping pong and hope to play against Xu Xin someday.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul> -->
                 </div>
             </div>
             <div class="row" id="testimonials" style="margin-top:10%;padding-left:20%;padding-right:20%;">
@@ -306,6 +545,12 @@
                     </p>
                 </div>
 
+                <!--<div style="border: 1px solid black;margin-top: 10%;box-shadow: 10px 10px 5px grey;">
+                  <p style="margin:5% 5%;">
+                    I had the pleasure of working with Jatin for three months at Lenovo CoLab fellowship. He is a talented UX designer with a great technical knowledge of the field. I was particularly impressed by his skills in managing multiple tasks and keeping the team on track during the development process. He always pushes the team for excellence and timeliness. I think Jatin can be an asset to any team both as a designer and a developer.
+                  </br></br> <i style="text-align:right;">(Babak Soleimani, Design researcher at University of Michigan)</i>
+                  </p>
+                </div>-->
             </div>
             <div class="row" id="pitch" style="margin-top:12%;padding-left:20%;padding-right:20%;">
                 <h4 class="section-heading" align="middle">My passion pitch</h4>
@@ -317,9 +562,635 @@
         </div>
     </section>
 
+    <!-- Clients Aside -->
+    <!--<aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>-->
+
+    <!-- Contact Section -->
+    <!--<section id="contact">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in" style="font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif; font-style: italic; font-size: 40px; color: white; text-align: center;">If you would like to get in touch with me, drop me a mail at jating@umich.edu</div>
+            </div>
+        </div>
+    </section>-->
 
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Tecaid -->
+    <!--<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">-->
+    <!-- Project Details Go Here -->
+    <!--<h2 style="text-align:center;">INTERACTION DESIGN PROJECT: TECAID</h2>
+                                <p style="text-align:center;" class="item-intro text-muted">Helping baby boomers request for timely technical assistance.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/tecaid/tecaid_2.JPG" alt="">
+                                <strong>Role</strong><p>Interaction designer</p>
+                                <strong>Overview</strong><p>Followed the entire user-centered design process involving interviews, sketches, personas and prototypes and came up with an app Tecaid.</p>
+                                <strong>What is Tecaid?</strong>
+                                <p>Tecaid is an app that helps baby boomers request for timely technical assistance from local neighborhood high school students looking for community service credit.</p>
+                                <strong style='font-size:20px;'>PROCESS FOLLOWED</strong>
+                                <br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/tecaid/process.png" alt="">
+                                <br/>
+                                <strong>Problem Statement</strong>
+                                <p><b>Baby boomers struggling to complete daily tasks through the use of technology</b> and in turn, reaching out to their children as tech support.</p>
+
+                                <strong>Competitive analysis</strong>
+                                <p>I looked at various competitors working on solving the same problem like SkillfulSenior.com, Teamviewer,LogMeIn, Eldy etc. Each one of them assumed that either the elderly person has some knowledge of computer or has someone to help them in case of technical urgency.</p>
+                                <strong>Sketches</strong>
+                                <p>I started brainstorming the potential solutions by sketching them. Some of the solutions were asking local children for help, doing google search, asking a librarian, etc.</p>
+
+                                <img class="img-responsive img-centered" src="img/portfolio/tecaid/tecaid_1.jpg" alt="">
+                                <strong>Scenario</strong>
+                                <p>I came up with a scenario for all my solutions where I thought it could be used. Below is the scenario for my actual solution.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/tecaid/tecaid_4.jpg" alt="">
+                                <strong>Personas</strong>
+                                <p>To analyse my solution and making sure that I am designing for my target user during every phase of the design process, I came up with a persona. It would also help me at the end to measure the success of the product.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/tecaid/tecaid_6.png" alt="">
+
+                                <strong>Interviews</strong>
+                                <p>I conducted interviews with a few baby boomers and some important things surfaced.<br/>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                Use of watsApp to connect the baby boomers was not encouraged a lot as it was very much dependent on demographics.<br/><br/>
+                                The population in this range wants to get their work done as quickly and as much without frustration as possible and they like to ask for help. For this they consider, library as one of the best resource.<br/><br/>
+                                One of the interviewees suggested that there would be a security issue with the primary school children, so why not consider high school children looking for community service credit.</p>
+                                </p>
+                                <p>Thus I shifted my focus to connecting baby boomers to high school children as by the above reasoning, the high school students would have much more motivation to help and also the security issue is somewhat eliminated.</p>
+
+                                <strong>Brainstorming</strong>
+                                <p>While brainstorming with 2 of my peers:<br/>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                The idea about asking a librarian stuck to us the most as it is free and essentially the work gets delegated to someone else.<br/><br/>
+                                Teaching google search idea came off as something which was very hard to implement but which can have very high impact.<br/><br/>
+                                Using Teamviewer to help solve the problem had problems such as what happens when the issue is with connection of physical devices.</p>
+                                </p>
+                                <img class="img-responsive img-centered" src="img/portfolio/tecaid/tecaid_5.png" alt="">
+
+                                <strong>Paper prototype</strong>
+                                <p>I did the QOC analysis, to evaluate the features I want to put in the app and came up with 3 potential solutions and made paper prototypes out of them.</p>
+                                <p>I tested my paper prototype with the same baby boomers and my peers to get their feedback. After several round of iterations, I was able to finalise a solution. Check out the video for the paper prototype <a href='https://www.youtube.com/watch?v=_5Knc2r5ShA'>here</a>.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/tecaid/tecaid_8.png" alt="">
+
+                                <strong>Digital prototype</strong>
+                                <p>After that I converted the paper prototype into digital prototype to be developed into an app. </p>
+                                <div style="text-align: center;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/B7cAYsU9Rv8" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <br/>
+                                <strong>Did it work?</strong>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                When I showed my app to 3 of the target users, they were extremely excited about the app. They wanted to have it as soon as possible as they said there is a real need for it.<br/><br/>
+                                Even checking with my peers, I received acknowledgement saying that this is definitely an issue that needs attention and my concept is something that addresses it really well.
+                                </p>
+
+                                <strong>Learnings from the process</strong>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>Focus on the need: The solution might change but the need would not.<br/><br/>
+                                Always keep your user in mind while designing in every phase of the process.<br/><br/>
+                                Getting feedback from target users is extremely important and there feedback supersedes any other type of feedback.<br/><br/>
+                                Sketch your ideas in order to get people quickly on the same page as yourself.</p>
+
+                                <ul style="text-align: center;" class="list-inline">
+                                    <li>Date: September - December 2016</li>
+                                    <li>Client: None</li>
+                                    <li>Category: Interaction design</li>
+                                </ul>
+                                <div style="text-align:center;">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <!-- New Eagle -->
+    <!--<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2 style="text-align:center;">CONTEXTUAL INQUIRY PROJECT: NEW EAGLE</h2>
+                                <p style="text-align:center;" class="item-intro text-muted">Finding gaps in the order fulfilment process of New Eagle.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/newEagle/New Eagle.JPG" alt="">
+
+                                <strong>Role</strong>
+                                <p>User experience researcher</p>
+                                <strong>Overview</strong>
+                                <p>Conducted contextual inquiry and created an affinity wall to study and find out the gaps in the order fulfilment process of New Eagle.</p>
+                                <strong>Who is New Eagle?</strong>
+                                <p>New Eagle is a mechatronics control systems solutions expert that helps a customer take his or her idea to prototype phase or to the market in the quickest way possible.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/newEagle/New Eagle_4.png" alt="">
+
+                                <strong style='font-size:20px;'>PROCESS FOLLOWED</strong>
+                                <br/><br/>
+                                <strong>Initial Meeting</strong>
+                                <p>To get a sense of our client’s domain and the problem they are facing. The biggest challenge for New Eagle was that too many of their processes on the operations side were manual and the systems weren’t speaking to each other.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/newEagle/NewEagle_2.jpg" alt="">
+
+                                <p>We identified key stakeholders, did interviews in contextual inquiry style while interpreting them side by side, did background research and constructed an affinity wall. We found 5 main issues:<br/>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                Manual process<br/><br/>
+                                Paper versus paperless<br/><br/>
+                                Niche business keeps customers<br/><br/>
+                                Customers uncertainty of the order status<br/><br/>
+                                Customers options in regards to payment on website are limited
+                                </p>
+                                </p>
+                                <img class="img-responsive img-centered" src="img/portfolio/newEagle/NewEagle_1.PNG" alt="">
+
+                                <strong>Iteration</strong>
+                                <p>The key themes were discussed with our client contact to find out the most problematic area which when solved will help them the most. 3 key themes emerged from this phase.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/newEagle/NewEagle_8.PNG" alt="">
+
+                                <strong>Recommendations</strong>
+                                <p>After brainstorming, we came up with 2 short term/low impact and and 1 long term/high impact solutions.<br/>
+                                1.	Going paperless (Short term/low impact) – Using LilyPad, a plugin for Fishbowl, the order fulfilment software currently in place, which extend its capabilities to other devices like tablets, smartphones etc.<br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/newEagle/Lilypad.png" alt="">
+                                2.	Improving the webstore (Short term/low impact) – Adding more payment options for the client apart from the existing credit card payment only. Showing prices to customers but showing discounted prices to premium customers.<br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/newEagle/webstore.PNG" alt="">
+                                3.	Implementing a CRM (long term/high impact) – Implementing an ERP (Enterprise resource planning) system like BizSlate which integrates with their existing accounting software and helps in managing inventory and orders.
+                                <img class="img-responsive img-centered" src="img/portfolio/newEagle/BizSlate.png" alt="">
+                                </p>
+
+                                <strong>Did it work?</strong>
+                                <p>Our recommendations were highly appreciated and appraised by the entire operations team of new Eagle. Out of the 3 recommendations we recommended, 2 of them are currently being implemented.</p>
+
+                                <strong>Learnings from the process:</strong>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                1.	In interviews people try to appear ideal. So it is very important to listen to the things people are not saying.<br/><br/>
+                                2.	After developing interview protocol, conduct an interview to find out whether it works. This makes the future interviews much more valuable.<br/><br/>
+                                3.	Always back your recommendations with substantial amount of data, otherwise there are high chances of them being ignored.<br/><br/>
+                                4.	Involve the user and keep on checking with him about your findings to make sure you are on the right track.
+                                </p>
+
+                                <ul style="text-align: center;" class="list-inline">
+                                    <li>Date: September - December 2016</li>
+                                    <li>Client: New Eagle</li>
+                                    <li>Category: UX Research</li>
+                                </ul>
+                                <div style="text-align:center;">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <!-- Integrated product development -->
+    <!--<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+    <!--<h2 style="text-align:center;">INTEGRATED PRODUCT DEVELOPMENT:<br/>STIL</h2>
+                                <!--<p>Helping people in dealing with anxiety attacks</p>-->
+    <!--<p style="text-align:center;" class="item-intro text-muted">Helping people manage everyday stress</p>
+
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/pic13.jpg" alt="">
+                                <strong>Overview:</strong>
+
+                                <p>Created an anxiety relief band: stil that helps people in managing everyday stress.
+                                Conducted user research using interviews and surveys, brainstormed and sketched concepts,
+                                prototyped a looks like and works like model and showcased the same in a trade show.</p>
+
+                                <p>I along with my 6 other team members (2 MBAs, 1 art and design, 1 engineering and 2
+                                UX design students) developed an anxiety relief wristband that helps people in managing everyday stress.
+                                While creating it, we went from a completely ambiguous phase of where we had to create a wearable that
+                                can be worn routinely in daily life and solves some need, to presenting a fully developed product in a
+                                trade show. During the process we talked to anxiety attack sufferers and medical professionals to make
+                                sure that we solve the user’s need.</p>
+
+                                <p>I led the user research phase by conducting the interviews with anxiety attack sufferers and medical
+                                professionals and deriving important insights from them to drive the direction of the concept. I created
+                                a conjoint analysis survey through which we could analyse the combination of features that was most
+                                preferred by our users. I also helped the team in concept testing, creating the website for the product,
+                                coming up with visual design for the product and realizing the works like model.</p>
+
+                                <strong>Problem Statement</strong>
+
+                                <p>As a part of the course on Integrated Product development, <b>we were given a problem statement of creating
+                                a wearable that can be worn routinely and that solves a particular need for the user</b>. </p>
+
+                                <strong style='font-size:20px;'>Process followed</strong>
+
+                                <p>As we began to work on this problem, among the team we identified the fact that the wearable market space
+                                seems to be saturated and unless the product does something essential that is not covered by wearables like
+                                fitbit and Apple watch, it would not be perceived well by the users. </p>
+
+                                <strong>Brainstorming</strong>
+                                <p>We started looking at all the problems we could think of that needs to be solved. At this point we just
+                                wanted to throw everything we had on the whiteboard.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/pic1.JPG" alt="">
+
+                                <p>Then we grouped together similar ideas into some broad themes.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/pic4.jpeg" alt="">
+
+                                <p><b>Going with our initial assumption of the wearable market being saturated, we decided to focus on a niche
+                                market instead. With this criterion in mind, we started to vote and ended up with acute health management
+                                and daily health as 2 prospective areas of research.</b></p>
+
+                                <p>We split the team into 2 and researched both areas for a week. </p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/pic2.png" alt="">
+                                <p>In the end each group presented their findings to the other. </p>
+                                <p>Then we went with the consensus and went with the concept that we as a team thought was feasible,
+                                niche and worth pursuing based on our intuition. This concept was related to <b>solving the needs for anxiety sufferers</b>. </p>
+                                <p>We began to explore this idea with full force starting with interviewing people who suffered with either
+                                mild anxiety or extreme anxiety and by talking to medical professionals.</p>
+
+                                <p>Some insights we got were: <br/>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'><b>Summary</b> - Everybody suffers from anxiety but the people who have anxiety attacks fail to manage it properly. Once the stress level starts to increase, there is a tip off point at which it is impossible to control and the person suffers from an anxiety attack.<br/><br/>
+                                <b>Detection</b> – Heart rate increases, shallow breathing, tightness in muscles. External detection is very difficult.<br/><br/>
+                                <b>Symptoms</b> – Increased heart rate, palpitations, uncontrolled breathing and sweating, extreme fear of death and passing out during severe attacks.<br/><br/>
+                                <b>Coping mechanisms</b> – Breathing exercises, be directed to focus on a distraction outside of the self, needs some outside physical stimulus<br/><br/>
+                                <b>Medication</b> – Decreases the frequency of attacks but doesn’t stop them. Some of the side effects include drowsiness, dependency and reduced effectiveness over time.
+                                </p>
+                                </p>
+
+                                <p>
+                                In parallel, we continued our research and looking at research papers to increase our clarity of the anxiety detection
+                                process and the measures taken to manage it. Some takeaways here were:<br/>
+
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                Data from wearables improves <b>self-management</b> by making data visible<br/><br/>
+                                <b>Growing number of consumers</b> willing to adopt wearables for health<br/><br/>
+                                <b>Sensor technologies</b> reaching maturity across domain<br/><br/>
+                                Wearables could be applied with <b>success in managing moderate anxiety</b> through aided mindfulness (Cognitive Behavioral Therapy, “CBT”) techniques
+                                </p>
+                                </p><br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/pic5.png" alt="">
+
+                                <strong>Scenario</strong><br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/scenario.jpg" alt="">
+
+                                <strong>Persona</strong><br/><br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/Persona.PNG" alt="">
+
+                                <br/>
+                                <p>We positioned our product to handle stress before it reaches the tip-off point.</p><br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/Pic6.PNG" alt="">
+
+                                <strong>Concept testing</strong>
+                                <p>We came up with <b>5 different concepts</b> in which this problem could be solved.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/pic7.png" alt="">
+
+                                <p>We looked at <b>2 competitor products</b> as well to make sure that our product is different
+                                from what is already present in the market and to see if the users prefer them over our
+                                chosen concepts.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/pic8.png" alt="">
+
+                                <p>For concept testing, <b>we mixed up all the products and presented them to 50 of our users</b>
+                                (this included people who did not suffer from anxiety attacks but mild stress). </p>
+
+                                <p><b>From the concept testing, the patch and one wrist wearable had the highest potential
+                                market share and the expected value. The ring wearable was less popular, particularly in male populations.</b></p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/pic9.png" alt="">
+
+                                <p>
+                                Thus we arrived at the following conclusions:<br/>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                The <b>product space was well received</b><br/><br/>
+                                There is a <b>significant variety of coping mechanisms</b> available for dealing with panic attacks<br/><br/>
+                                The product needs to be <b>customizable or focussed on a niche market</b><br/><br/>
+                                The users showed a preference for a wearable that would act as a <b>discrete tool to manage their symptoms</b>
+                                </p>
+                                </p>
+
+                                <strong>Conjoint analysis</strong>
+                                <p>In order to decide on the optimum set of features to put in and among the 2 concepts from the concept
+                                testing, we created a <b>card sorting survey with different cards showing the device location and the feedback
+                                mechanism with respect to price</b>. The respondents were asked to arrange the cards in their preference order from highest to lowest. </p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/pic10.png" alt="">
+
+                                <p>
+                                Some of the <b>findings from the conjoint analysis</b> were:<br/>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                Users are willing to <b>pay more for a wrist wearable</b> than a clip-on or patch wearable<br/><br/>
+                                Users are <b>indifferent</b> to whether the wearable has an <b>onboard screen</b><br/><br/>
+                                Users <b>prefer LED-guided breathing feedback</b>, but there is also willingness to pay for vibrations or buzzes
+                                </p>
+                                </p>
+
+                                <p>Thus after putting this all together, <b>we created a looks like model and works like model</b>. </p>
+                                <p>The looks like model had 2 options:<br/>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                a.	A <b>3D printed wristband with slit in between</b> where LEDs could be placed to guide the person in breathing<br/><br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/pic11.png" alt=""><br/><br/>
+                                b.	A <b>customizable wristband</b> in which the bands can be changed as per will.<br/><br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/pic12.png" alt="">
+                                </p>
+                                </p>
+
+                                <strong>Works-like model</strong><br/><br/>
+                                <p>Sensors used - Pulse and skin conductance sensors<br/>
+                                Output - Soothing vibrations and LED lights guide user through boxed breathing technique</p>
+
+                                <p>Here is the video of the works like model</p>
+                                 <div style="text-align: center;">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/DCky_dTKCDI" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <br/>
+                                <p>In the end we developed a website and a marketing video in order to showcase our product at the mock tradeshow setup
+                                and selling it to the customers who arrived.</p>
+
+                                <img class="img-responsive img-centered" src="img/portfolio/ipd/pic13.png" alt="">
+
+                                <p>Check out the website <a href='http://ipd.barclayconsulting.com/teams/2017/peach/' target='_blank'>here</a><br/>
+                                The marketing video can be found <a href='https://www.youtube.com/watch?v=-SQOle-9K5k' target='_blank'>here</a></p>
+
+                                <ul style="text-align: center;" class="list-inline">
+                                    <li>Date: January - April 2017</li>
+                                    <li>Client: None</li>
+                                    <li>Category: Product Design and Development</li>
+                                </ul>
+                                <div style="text-align:center;">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <!-- Innovation in Action -->
+    <!--<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2 style="text-align:center;">ABACA GAMES: SOCIAL IMPACT VIDEO GAME VENTURE</h2>
+                                <p style="text-align:center;" class="item-intro text-muted">Helping high school students fight against climate change</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/iia/Screenshots.JPG" alt="">
+
+                                <strong>Role</strong>
+                                <p>Principal UX designer</p>
+                                <strong>Overview</strong>
+                                <p>Designed a role playing video game to make high school students take action to curb climate change in a virtual environment.</p>
+                                <strong>Initial Problem statement</strong>
+                                <p>Develop a videogame to mitigate climate change.</p>
+                                <strong>Stakeholder interviews</strong>
+                                <p>Talked to a number of people in order define the problem in a better way.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/iia/StakeHolders.JPG" alt="">
+                                <p>We talked to 30+ stakeholders (which kept on adding during the process) and gathered data through them and came up with 4 major key takeaways.<br/>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                A game could really help teachers and environment if it is able to teach the students about climate change.<br/><br/>
+                                Key audience is a high school student who care but not know what to do. His mind is still malleable.<br/><br/>
+                                High school teachers are teaching mixed messages when it comes to climate change.<br/><br/>
+                                Teachers are willing to assign climate change videogame as an extra credit or homework.
+                                </p>
+                                </p>
+                                <p>On running our concept through one of the educational experts, he mentioned that he loves the creative part of tricking kids into learning.</p>
+
+                                <strong>Empathy Map</strong>
+                                <p>We created an empathy map to find out the pain and gain points of high school students who would be somewhat interested in climate change.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/iia/Empathy Map.JPG" alt="">
+                                <br/>
+                                <p>From the empathy map, we grouped the pain points into some common themes.</p>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>Behaviour<br/><br/>
+                                Effectiveness<br/><br/>
+                                Action items<br/><br/>
+                                Seriousness</p>
+
+                                <p>We decided to follow the path of action items and thus came up with a “how might we?”</p>
+
+                                <strong>Problem statement</strong>
+                                <p>How might we make high school students do something about climate change in a feasible way.</p>
+
+                                <p>Then we sketched out a few solutions.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/iia/Sketches.jpg" alt="">
+
+                                <p>Among the many different solutions, based on some factors like feasibility and favorability among team members, we came up with a solution.</p>
+
+                                <strong>Solution</strong>
+                                <p>Role Playing mobile game that makes high school students take action to curb climate change in a virtual environment.</p>
+
+                                <strong>Competitive Analysis</strong>
+                                <p>We looked at 4 other popular games directly/indirectly related to climate change – Eco, climate change, Fate of the world and Sim City 5. We found that none of them focuses specifically on climate change, donates revenues towards climate change or allows teachers to use it as an evaluation tool.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/iia/CompetitiveAnalysis.PNG" alt="">
+
+                                <strong>Surveys</strong>
+                                <p>The survey was meant to analyse the awareness of high school students about climate change, their excitement level for a game related to climate change and if they would be willing to pay for it.</p>
+
+                                <strong>Survey Results</strong>
+                                <p>Many high school students said that they know climate change is an issue but it is not highlighted enough. They were not really sure what they can do in regards to the same.</p>
+
+                                <p>Below image shows how the results change when the users know that their money is going to an environmental charity.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/iia/SurveyInGamePurchase.JPG" alt="">
+
+                                <p>Thus we began with working on the prototype for the game. Below are some of the initial designs for the prototype.</p>
+
+                                <img class="img-responsive img-centered" src="img/portfolio/iia/InitialPrototype_1.PNG" alt="">
+                                <br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/iia/InitialPrototype_2.PNG" alt="">
+                                <br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/iia/InitialPrototype_3.PNG" alt="">
+
+                                <p>Later on owing to the pervasiveness of mobile phones, we decided to make it as a phone game and went through another round of iteration before reaching the final design of prototype.</p>
+
+                                <p>Check out the interactive prototype <a href='https://invis.io/4VAIUBDZS#/219782451_Screen1' target='_blank'>here</a><p>
+                                <strong>Screenshots of the final prototype</strong>
+                                <br/><br/>
+
+                                <iframe src="https://docs.google.com/presentation/d/1aWYpb5LUTlade7r1YT9xgz1bBBZKnPP2FrFDtrIgICA/embed?start=false&loop=false&delayms=60000" frameborder="0" width="750" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                <br/><br/>
+
+                                <strong>Did it work?</strong>
+                                <p>We tested the prototype with random people at the University of Michigan, Central campus. We also went to a high school- Star International Academy in Dearborn Heights, to test it out with high school students.<br/>
+                                The concept garnered positive reviews and was seen as a way good way of making people learn about climate change</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/iia/pilot.png" alt="">
+
+                                <p>Some of the feedbacks we got were:</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/iia/feedback.PNG" alt="">
+
+                                <strong>Learnings from the process</strong>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                In a game, it is very important to educate the user about the concept and thus adopt a low floor and high ceiling approach.<br/><br/>
+                                It is very important to get the feedback of the target user; while all other people come in the end.</p>
+
+                                <ul style="text-align: center;" class="list-inline">
+                                    <li>Date: October 2016 - March 2017</li>
+                                    <li>Client: None</li>
+                                    <li>Category: Product Design</li>
+                                </ul>
+
+                                <div style="text-align:center;">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <!-- ASB project -->
+    <!--<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2 style="text-align:center;">Usability Evaluation Project: Prevent Child Abuse America</h2>
+                                <p style="text-align:center;" class="item-intro text-muted">Improving the usability of PIMS database</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/asb/Screenshot_Home.png" alt="">
+
+                                <strong>Role</strong>
+                                <p>UX Researcher</p>
+
+                                <strong>Client overview</strong>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                a. Prevent Child Abuse America(PCAA) is an organization aiming towards improving the lives of
+                                families who are possibly at risk of abuse and provide them with the resources that they need.<br/><br/>
+                                b. They work with Healthy Families America organizations located in different areas and where program
+                                managers manage and organize the caseload internally and are accountable to people funding them.<br/><br/>
+                                c. PCAA provide the organizations with a database: PIMS that helps them manage this data and prepare
+                                reports for showing to their funders.</p>
+                                <strong>Client problem</strong>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                a. PIMS was developed over 20 years ago and have still work in progress because the guidelines and
+                                the funders change over time and the populations which change as well.<br/><br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/asb/Screenshot_ParticipantHome.png" alt="">
+                                b. The new version of PIMS is still in its beta version and the project manager wanted to know the areas
+                                in which he should be focussing on in order to make PIMS more usable and useful for the sites.</p>
+                                <strong style='font-size:20px;'>RESEARCH PROCESS</strong>
+                                <br/><br/>
+                                <strong>Original research questions</strong>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                1. How do people feel about the PIMS database currently? Where are its issues?<br/><br/>
+                                2. What steps could be taken to make the PIMS database better and more user-friendly?
+                                </p>
+                                <p>There were some areas that we particularly focused on while conducting our research: Participant home form,
+                                participant home visit form, standard reports and custom query.</p>
+
+                                <strong>Methods</strong>
+                                <br/>
+                                <img class="img-responsive img-centered" src="img/portfolio/asb/process.png" alt="">
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                a. Our methods involved getting familiarised with the database and documenting our personal experiences, notes,
+                                issues, and concerns.<br/><br/>
+                                b. We created a survey and sent it out to all the sites using the database. The survey was very successful and we
+                                were able to get 25 responses in 2 days which shaped our recommendations a lot.<br/><br/>
+                                c. We then started interviewing users from different sites. During the process, we also presented the interviewees with some suggestions that we came
+                                up with, to test if they found them useful.<br/><br/>
+                                d. Thus we gathered together the data from the interviews, surveys and our own research to find out the key themes
+                                and brainstorm on some ideas for our recommendations.<br/><br/>
+                                e. For the recommendations, we created 2 personas and scenarios keeping our target users in mind. We presented our
+                                findings and conclusions, giving some visual examples of the proposed changes to the database.</p>
+                                <img style="border: 1px solid black;" class="img-responsive img-centered" src="img/portfolio/asb/personas.png" alt="">
+                                <strong>Key findings</strong>
+                                <p>Attitudes: Overall people have a favorable attitude toward the database<br/>
+                                Behaviors: The number one use of the database is for data entry<br/>
+                                Characteristics: Data entry and custom queries were some of the areas for frustration</p>
+                                <strong>Key complaints from users</strong>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                1. Some reports give too much info, so they have to sift through the entire data set to find the info they are looking for.<br/><br/>
+                                2. Some fields like gender, DOB should pop up by themselves.<br/><br/>
+                                3. Custom query page could use a cheat sheet.<br/><br/>
+                                <img style="border: 1px solid black;" class="img-responsive img-centered" src="img/portfolio/asb/customQuery.png" alt="">
+                                4. Keyboard Ability in the database could be improved.
+                                </p>
+                                <strong style='font-size:20px;'>RECOMMENDATIONS</strong>
+                                <br/>
+                                <strong>High impact recommendations</strong>
+                                <p style='border:1px solid black; padding:4% 4% 4% 4%;'>
+                                1. Auto-fill: Auto-filling of fields in forms, especially the more complex forms such as the Home Form and Home Visit Form.<br/><br/>
+                                <img style="border: 1px solid black;" class="img-responsive img-centered" src="img/portfolio/asb/autofill.png" alt="">
+                                2. Sorting: Ability to sort the report data using criteria such as alphabetically, by SSW, by date, by status, etc.<br/><br/>
+                                3. Scrolling: Allow consistent scrolling on all pages, where one can scroll with a mouse and not have to move it over to the
+                                sidebar and drag or click the arrows several times.<br/><br/>
+                                4. Custom query: Having a SQL window where people can write their own queries and having a cheat sheet on the page for the not
+                                so tech savvy people.</p>
+
+                                <ul style="text-align: center;" class="list-inline">
+                                    <li>Date: February - March 2017</li>
+                                    <li>Client: Prevent Child Abuse America</li>
+                                    <li>Category: UX Research</li>
+                                </ul>
+                                <div style="text-align:center;">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
 
 <!--  K12insight publish workflow : case study-->
 <div class="portfolio-modal modal fade" id="portfolioModal_k12publishworkflow" tabindex="-1" role="dialog" aria-hidden="true">
@@ -1524,6 +2395,205 @@
             </div>
         </div>
     </div>
+
+    <!--Alphabet poster-->
+    <!--<div class="portfolio-modal modal fade" id="graphicModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2 style="text-align:center;">Graphic design: Alphabet poster</h2>
+                                <p style="text-align:center;" class="item-intro text-muted">English alphabet poster showing the diversity of characters in Tarantino movies</p>
+                                <ul style="text-align: center;" class="list-inline">
+                                    <li>Date: Oct 2017</li>
+                                    <li style="margin: 0 10px 0 10px;">Client: None</li>
+                                    <li>Category: Graphic design</li>
+                                </ul>
+
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/AlphabetPoster/Hw4_alphabet.png" alt="">
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/AlphabetPoster/ColorPalette.jpg" alt="">
+
+                                <div style="text-align:center;">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>-->
+
+    <!--Layered collage poster-->
+    <!--<div class="portfolio-modal modal fade" id="graphicModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2 style="text-align:center;">Graphic design: Layered collage poster</h2>
+                                <p style="text-align:center;" class="item-intro text-muted">A design trend making use of botanical illustration and bold typography, creating a sense of depth in the composition.</p>
+                                <ul style="text-align: center;" class="list-inline">
+                                    <li>Date: Sep 2017</li>
+                                    <li style="margin: 0 10px 0 10px;">Client: None</li>
+                                    <li>Category: Graphic design</li>
+                                </ul>
+
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/Collage/Collage.jpg" alt="">
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/Collage/ColorPalette.jpg" alt="">
+
+                                <div style="text-align:center;">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>-->
+
+    <!--UMSI website redesign-->
+    <!--<div class="portfolio-modal modal fade" id="graphicModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2 style="text-align:center;">Graphic design: UMSI website redesign</h2>
+                                <p style="text-align:center;" class="item-intro text-muted">Redesigning the website of School of Information at the University of Michigan.</p>
+                                <ul style="text-align: center;" class="list-inline">
+                                    <li>Date: Nov 2017</li>
+                                    <li style="margin: 0 10px 0 10px;">Client: None</li>
+                                    <li>Category: Graphic design</li>
+                                </ul>
+
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/WebsiteRedesign/WebsiteRedesign.jpg" alt="">
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/WebsiteRedesign/colorPallette1.jpg" alt="">
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/WebsiteRedesign/colorPallette2.jpg" alt="">
+
+                                <div style="text-align:center;">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>-->
+
+    <!--Portfolio website redesign-->
+    <!--<div class="portfolio-modal modal fade" id="graphicModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2 style="text-align:center;">Graphic design: Portfolio website redesign</h2>
+                                <p style="text-align:center;" class="item-intro text-muted">Redesigned my UX portfolio using my own logo for self-promotion.</p>
+                                <ul style="text-align: center;" class="list-inline">
+                                    <li>Date: Dec 2017</li>
+                                    <li style="margin: 0 10px 0 10px;">Client: None</li>
+                                    <li>Category: Graphic design</li>
+                                </ul>
+
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/PortfolioWebsiteRedesign/PortfolioDesign1.jpg" alt="">
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/PortfolioWebsiteRedesign/PortfolioDesign2.jpg" alt="">
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/PortfolioWebsiteRedesign/PortfolioDesign3.jpg" alt="">
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/PortfolioWebsiteRedesign/PhoneScreen.jpg" alt="">
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/PortfolioWebsiteRedesign/ColorHarmony.jpg" alt="">
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/PortfolioWebsiteRedesign/ConceptDesign.jpg" alt="">
+
+                                <div style="text-align:center;">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>-->
+
+    <!-- Sample interactions from Daily UI-->
+    <!--<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <Project Details Go Here
+                                <h2 style="text-align:center;">Sample Interactions</h2>
+                                <<p style="text-align:center;" class="item-intro text-muted">Improving usability of UM LSA Honors website.</p>
+                                <p style="text-align:center;" class="item-intro text-muted">Interactions designed from various projects that I worked on.</p>
+                                <br/>
+                                <p style="text-align:center;font-size:20px;"><strong>CREDIT CARD CHECKOUT</strong></p>
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/shot2.png" alt="">
+                                <br/>
+                                <p style="text-align:center;font-size:20px;"><strong>ITINERAIRE</strong></p>
+                                <iframe src="https://docs.google.com/presentation/d/1x6yM1OV_4S527P3u37mhN97Ktiz8T7b6kRyqP911pSM/embed?start=false&loop=false&delayms=60000" frameborder="0" width="750" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                <br/>
+                                <br/>
+
+                                <p style="text-align:center;font-size:20px;"><strong>PROFILE PAGE OF AN ADVISOR</strong></p>
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/shot1.png" alt="">
+
+                                  <ul style="text-align: center;" class="list-inline">
+                                    <li>Date: September 2016 - Present</li>
+                                    <li>Client: None</li>
+                                    <li>Category: Visual Design</li>
+                                </ul>
+                                <div style="text-align:center;">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
