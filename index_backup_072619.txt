@@ -377,8 +377,11 @@
                                     <li>Category: UX design</li>
                                 </ul>
 
+                                <strong class="medium-title">Introduction</strong>
+                                <p class="medium-body">As a UX/UI designer at K12 Insight, I worked as the sole designer for Engage - a survey creation tool. It is used by 3 sister companies with a completely different set of users - K12 Insight (catering to school districts), Zarca interactive (corporate clients) and SoGoSurvey (DIY users).</p>
+
                                 <strong class="medium-title">Context</strong>
-                                <p class="medium-body">The publish module within Engage - the survey creation tool of K12 Insight, was a cause for concern due to too many methods of sharing. Additionally, the feature was also cumbersome, demanding a minimum of 4 steps from our users including several questions within to pubish a survey. A hefty demand leading to a hefty dropout rate.
+                                <p class="medium-body">The publish module within Engage was a cause for concern due to numerous methods of sharing that the platform had. More specifically, users were unsure which sharing feature to use and when. Additionally, the feature was also cumbersome, demanding a minimum of 4 steps from our users that included several questions within. A hefty demand leading to a hefty dropout rate.
                                     </br>
                                     </br>
                                     <span>It was clear that a redesign of the sharing workflow was needed so that users could launch their surveys as seamlessly as possible. </span>
@@ -388,15 +391,6 @@
 
                                 <strong class="medium-title">Initial Goal</strong>
                                 <p class="medium-body">Make sharing of a survey easier and faster.</p>
-
-                                <strong class="medium-title">Team</strong>
-                                <p class="medium-body">I was the sole designer on this project working alongside the PM and the CEO.</p>
-
-                                <strong class="medium-title">Project constraints</strong>
-                                <ol class="medium-body" type="a">
-                                    <li>K12 Insight was not in favor of doing user research due to a previous bad experience as well as financial reasons so I had to rely on other ways to do my research and making sure I am solving the right problem. </li>
-                                    <li>Both the PM and the CEO were working out of the Indian office. Remote collaboration in different time zones meant that we would only get 1-2 hours of overlapping time everyday to brainstorm, get design feedback and determine next steps.</li>
-                                </ol>
 
                                 <strong class="medium-title">Research</strong>
                                 <ol class="medium-body" type="a">
@@ -428,14 +422,33 @@
                                     <img class="img-responsive img-centered image-formatting" src="img/portfolio/k12insight_publishworkflow/Competitors/SurveyMonkey_Distribute.png" alt="">
                                     <h6 class="medium-image-caption" style="margin-bottom: 10%;">Publish methods overview screen from SurveyMonkey</h6>
 
-                                    <li>Some methods such as multi-use link has an option to restrict the number of uses of a link to 1 which then functions in the same way as a Single-use link.</li>
+                                    <li>Methods such as multi-use link has an option to restrict the number of uses of a link to 1 which then functions in the same way as a Single-use link.</li>
                                     <li>In spite of having 12 methods for publishing on social media, the frequency of use for even the most common ones was really low. From the interviews, we found out that it was due to the lack of customizability given to the user.</li>
                                     <img class="img-responsive img-centered image-formatting" src="img/portfolio/k12insight_publishworkflow/Data/FacebookPublishData.png" alt="" style="margin-top: 5%;">
-                                    <h6 class="medium-image-caption" style="margin-bottom: 10%;">Google analytics data showing usage of Facebook as a publishing method over the last 6 months</h6>
+                                    <h6 class="medium-image-caption" style="margin-bottom: 10%;">Google analytics data showing usage of Facebook as a publishing method</h6>
 
+                                    <!-- <img class="img-responsive img-centered image-formatting" src="img/portfolio/k12insight_publishworkflow/Data/TwitterPublishDAta.png" alt="">
+                                    <h6 class="medium-image-caption" style="margin-bottom: 10%;">Google analytics data showing usage of Twitter as a publishing method</h6> -->
+
+                                    <!-- <li>Out of the 3 ways to get a link to share, most users preferred grabbing a link as Shareable URL rather than going through the Link sharing option on the overview page.</li>
+                                    <img class="img-responsive img-centered image-formatting" src="img/portfolio/k12insight_publishworkflow/OldDesigns/GeneratingShareableURL.png" alt="" style="margin-top: 5%;">
+                                    <h6 class="medium-image-caption" style="margin-bottom: 10%;">Grab a URL to share with 1 click</h6> -->
+
+                          <!-- Quick Send -->
+                                    <!-- <li>Users preferred going through the traditional method of sharing survey in multiple steps rather than using Quick send. In Quick send, some missing settings like using contact lists as email sources, editing emails before sending, etc. are very important for users to check before sending out the survey.
+                                    </br>The data below shows usage of Quick send as compared to all other publishing options.</li>
+
+                                    <img class="img-responsive img-centered image-formatting" src="img/portfolio/k12insight_publishworkflow/Data/Quick Send Data.png" alt="" style="margin-top: 5%;">
+                                    <h6 class="medium-image-caption" style="margin-bottom: 10%;">Google analytics data showing users using Quick Send as a publishing method</h6>
+
+                                    <img class="img-responsive img-centered image-formatting" src="img/portfolio/k12insight_publishworkflow/Data/PublishOptionsData.png" alt="">
+                                    <h6 class="medium-image-caption" style="margin-bottom: 10%;">Google analytics data showing users using any one of the publishing methods</h6> -->
                                 </ol>
 
                                 <strong class="medium-title">Key Research Insights: Sharing via email</strong>
+
+                                <!-- <img class="img-responsive img-centered image-formatting" src="img/portfolio/k12insight_publishworkflow/OldDesigns/SingleUseWF_1.png" alt="">
+                            <h6 class="medium-image-caption">Publish via email - Single use link option selected</h6> -->
 
                                 <ol class="medium-body" type="a" style="margin-top: 2%;">
                                     <li>Current workflow for sharing a survey via email is really cumbersone and involves going through 4 steps even without any setting change.
@@ -485,25 +498,20 @@
                                 <!-- Iterations -->
                                 <div class="medium-title-2" style="margin-bottom: -4px;margin-top: 5%;">Few iterations I went through:</div>
                                 <!-- <p class="medium-title-2">Few iterations I went through:</p> -->
-                                <img class="img-responsive img-centered image-formatting" src="img/portfolio/k12insight_publishworkflow/Iterations/PublishOverviewIteration_2.png" alt="">
-                                <h6 class="medium-image-caption" style="margin-bottom: 3%;">Iteration 1</h6>
-
-                                <p class="medium-body" style="margin-bottom: 10%;">This was the first iteration I came up with but it was rejected because we are using a similar structure in our dashboard screen where the interactions are completely different. Thus in order to maintain consistent interactions we ended up not using this.</p>
-
                                 <img class="img-responsive img-centered image-formatting" src="img/portfolio/k12insight_publishworkflow/Iterations/PublishOverviewIteration_1.png" alt="">
-                                <h6 class="medium-image-caption" style="margin-bottom: 3%;">Iteration 2</h6>
+                                <h6 class="medium-image-caption" style="margin-bottom: 10%;">Iteration 1</h6>
 
-                                <p class="medium-body" style="margin-bottom: 8%;">This iteration was rejected purely due to aesthetic reasons. We wanted to move towards a more modern approach of going for a borderless layout and using whitespace to separate out elements.</p>
+                                <img class="img-responsive img-centered image-formatting" src="img/portfolio/k12insight_publishworkflow/Iterations/PublishOverviewIteration_2.png" alt="">
+                                <h6 class="medium-image-caption">Iteration 2</h6>
 
                                 <!-- Final designs -->
                                 <div class="medium-title-2" style="margin-bottom: -4px;margin-top: 5%;">Final design:</div>
                                 <img class="img-responsive img-centered image-formatting" src="img/portfolio/k12insight_publishworkflow/FinalDesigns/PublishOverviewFinal.png" alt="">
-                                <h6 class="medium-image-caption">Redesigned publish methods overview page</h6>
+                                <h6 class="medium-image-caption" style="margin-bottom: 10%;">Redesigned publish methods overview page</h6>
+                                <!-- <p class="medium-title-2">Final design:</p> -->
+                                <p class="medium-body">Through this design, I was able to reduce the number of steps from 21 to 4 while maintaining all the core functionalities. This shows the amount of redundant methods present currently and how it easily confuses the user.</p>
 
-                                <ol class="medium-body" type="a">
-                                    <li>Through this design, I was able to reduce the number of steps from 21 to 4 while maintaining all the core functionalities.</li>
-                                    <li>The use of whitespace between elements as well as hover shadow interaction comes directly from material design principles of introducing depth to elements.</li>
-                                </ol>
+
 
                                 <strong class="medium-title">Design - Sharing via email</strong>
 
@@ -520,8 +528,6 @@
                                 <img class="img-responsive img-centered image-formatting" src="img/portfolio/k12insight_publishworkflow/Iterations/ComposeEmailIteration_2.png" alt="">
                                 <h6 class="medium-image-caption">Iteration 2</h6>
 
-                                <p class="medium-body" style="margin-bottom: 8%;">Both the iterations here were rejected as these gave the impression as if you are filling up a contact form rather than scheduling an email. Additionally, we wanted this part of the workflow to be as familiar to the users as possible.</p>
-
                                 <!-- Final designs -->
                                 <div class="medium-title-2" style="margin-bottom: -4px;margin-top: 5%;">Final design:</div>
 
@@ -534,8 +540,8 @@
 
                                 <ol class="medium-body" type="a">
                                     <li>In conjunction with our design goals mentioned above, we decided it was also best to not span too far away from the sharing methods that had already been in place from competitors like Gmail and Survey Monkey.</li>
-                                    <!-- <img class="img-responsive img-centered image-formatting" src="img/portfolio/k12insight_publishworkflow/Competitors/SurveyMonkeyEmailSharing.png" alt="" style="margin-top: 5%;">
-                                    <h6 class="medium-image-caption" style="margin-bottom: 10%;">Composing an email screen in SurveyMonkey</h6> -->
+                                    <img class="img-responsive img-centered image-formatting" src="img/portfolio/k12insight_publishworkflow/Competitors/SurveyMonkeyEmailSharing.png" alt="" style="margin-top: 5%;">
+                                    <h6 class="medium-image-caption" style="margin-bottom: 10%;">Composing an email screen in SurveyMonkey</h6>
                                     <li>This design gets rid of the sequential approach. Thus it acts as a quick send for amateur user and full of features for advanced users.</li>
                                     <li>One important consideration here was to make sure that email content and email template design are separated from each other and given appropriate priorities in the workflow.</li>
                                     <!-- <li>In the previous workflow, sender email address was considered more of a setting change. However, in this workflow users can change it directly from here.</li> -->
@@ -1559,12 +1565,12 @@
                                 <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/internship_infographic.jpg" alt=" " style="margin-bottom: 8%;">
 
                                 <!-- Portfolio Redesign for web -->
-                                <!-- <h3 style="text-align: center; padding-top: 15%;padding-bottom: 4%;text-transform: none;">Redesigning my personal portfolio for web.</h3>
-                                <img class="img-responsive img-centered image-formatting" src="img/portfolio/visualDesign/graphicDesignWorks/PortfolioDesign1.jpg" alt=""> -->
+                                <h3 style="text-align: center; padding-top: 15%;padding-bottom: 4%;text-transform: none;">Redesigning my personal portfolio for web.</h3>
+                                <img class="img-responsive img-centered image-formatting" src="img/portfolio/visualDesign/graphicDesignWorks/PortfolioDesign1.jpg" alt="">
 
                                 <!-- Portfolio Redesign for mobile -->
-                                <!-- <h3 style="text-align: center; padding-top: 15%;padding-bottom: 4%;text-transform: none;">Redesigning my personal portfolio for mobile.</h3>
-                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/PhoneScreen.jpg" style="max-width: 50%;margin-top: -5%;" alt=""> -->
+                                <h3 style="text-align: center; padding-top: 15%;padding-bottom: 4%;text-transform: none;">Redesigning my personal portfolio for mobile.</h3>
+                                <img class="img-responsive img-centered" src="img/portfolio/visualDesign/graphicDesignWorks/PhoneScreen.jpg" style="max-width: 50%;margin-top: -5%;" alt="">
 
                                 <div style="text-align:center;">
                                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
