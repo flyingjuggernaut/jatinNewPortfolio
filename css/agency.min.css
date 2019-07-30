@@ -346,12 +346,12 @@ section h3.section-subheading {
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover,
 #graphic .portfolio-item .portfolio-link .portfolio-hover {
-    background: rgba(254, 209, 54, .9);
+    background: rgba(254, 209, 54, .8);
     position: absolute;
     width: 100%;
     height: 100%;
     opacity: 0;
-    transition: all ease .5s;
+    transition: all ease .1s;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s
 }
@@ -359,6 +359,22 @@ section h3.section-subheading {
 #graphic .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1
 }
+
+.portfolio-block
+{
+  transition: box-shadow .1s;
+}
+
+.portfolio-block:hover
+{
+  box-shadow: 1px 1px 8px 0px rgba(0,0,0,.5);
+}
+
+.portfolio-hover:hover
+{
+  box-shadow: 1px 1px 8px 0px rgba(0,0,0,1);
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content,
 #graphic .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     position: absolute;
@@ -421,7 +437,9 @@ footer ul.quicklinks {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  color: black;
 }
+
 
 .medium-title{
   margin-top: 53px;
