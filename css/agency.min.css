@@ -481,6 +481,22 @@ footer ul.quicklinks {
   margin-bottom: 30px;
 }
 
+.testimonial-content
+{
+  margin:5% 5%;
+  line-height: 2;
+  font-size: 15px;
+  font-family: "Helvetica neue";
+  font-weight: 500;
+}
+
+.testimonial-author
+{
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Helvetica neue";
+}
 
 .image-formatting{
       margin-top: 20px;
