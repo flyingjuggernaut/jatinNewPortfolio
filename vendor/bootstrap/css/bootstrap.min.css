@@ -1274,7 +1274,8 @@ h3 {
 }
 .h4,
 h4 {
-    font-size: 18px
+    font-size: 18px;
+    line-height: 26px;
 }
 .h5,
 h5 {
@@ -6071,9 +6072,9 @@ button.close {
         width: 300px
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .modal-lg {
-        width: 900px
+        width: 760px
     }
 }
 .tooltip {
@@ -6715,7 +6716,7 @@ button.close {
         display: inline-block!important
     }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+/*@media (min-width: 992px) and (max-width: 1199px) {
     .visible-md {
         display: block!important
     }
@@ -6744,7 +6745,7 @@ button.close {
     .visible-md-inline-block {
         display: inline-block!important
     }
-}
+}*/
 @media (min-width: 1200px) {
     .visible-lg {
         display: block!important
@@ -6785,11 +6786,11 @@ button.close {
         display: none!important
     }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+/*@media (min-width: 992px) and (max-width: 1199px) {
     .hidden-md {
         display: none!important
     }
-}
+}*/
 @media (min-width: 1200px) {
     .hidden-lg {
         display: none!important
@@ -6842,4 +6843,3 @@ button.close {
         display: none!important
     }
 }
-/*# sourceMappingURL=bootstrap.min.css.map */
