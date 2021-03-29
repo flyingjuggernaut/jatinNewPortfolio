@@ -26,6 +26,24 @@
     <link href="css/agency.min.css" rel="stylesheet">
 
     <script>
+
+        function askPassword() {
+            var password = prompt('Enter password to view case study');
+            var pass1="design324";
+            if (password==pass1)
+                {
+                    return true;
+                }
+            else
+                {
+                    alert("Password incorrect");
+                    location.reload();
+                }
+            
+      } 
+        
+
+
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
             i[r] = i[r] || function() {
@@ -74,8 +92,9 @@
                         <a class="page-scroll dropdown-btn" href="#portfolio">Portfolio</a>
                         <div class="dropdown-content">
                             <a href="#portfolioModal_paymentarrangement" target="_blank" class="portfolio-link" data-toggle="modal" style="text-transform:none">UX design: Payment Arrangement in the My Sprint App</a>
+                            <a href="#portfolioModal_supportPage" onclick="askPassword()" class="portfolio-link" data-toggle="modal" style="text-transform:none">UX design: Support Page Redesign in the My Sprint App</a>
                             <a href="#portfolioModal_k12publishworkflow" target="_blank" class="portfolio-link" data-toggle="modal" style="text-transform:none">UX design: Publish Workflow Redesign for K12Insight</a>
-                            <a href="#portfolioModal_T1DAR" target="_blank" class="portfolio-link" data-toggle="modal" style="text-transform:none">Game design: T1DAR</a>
+                            <!-- <a href="#portfolioModal_T1DAR" target="_blank" class="portfolio-link" data-toggle="modal" style="text-transform:none">Game design: T1DAR</a> -->
                             <!-- <a href="#portfolioModal_memorabilia" class="portfolio-link" data-toggle="modal" style="text-transform:none">Product design: Memorabilia</a> -->
                             <a href="#portfolioModal_lsahonors" class="portfolio-link" data-toggle="modal" style="text-transform:none">Usability evaluation: UM LSA Honors</a>
                             <!-- <a href="#portfolioModal_graphicdesign" class="portfolio-link" data-toggle="modal" style="text-transform:none">Visual design: Graphic/UI design samples</a> -->
@@ -164,7 +183,9 @@
                 <!-- empty 1 column div -->
                 <div class="col-md-1"></div>
 
-                <! ------------Payment Arrangement-------------------- -->
+                
+
+                <!-- ----------Payment Arrangement-------------------- -->
                 <div class="col-md-5 col-sm-5 portfolio-item">
                   <div class="portfolio-block">
                     <a href="#portfolioModal_paymentarrangement" target="_blank" class="portfolio-link" data-toggle="modal"> 
@@ -178,6 +199,31 @@
 
                   </div>
                 </div>
+
+                <!-- ----------Support Page Redesign-------------------- -->
+                <div class="col-md-5 col-sm-5 portfolio-item">
+                  <div class="portfolio-block">
+                    <a href="#portfolioModal_supportPage" onclick="askPassword()" class="portfolio-link" data-toggle="modal"> 
+                    <!-- <a href="#portfolioModal_supportPage" target="_blank" class="portfolio-link" data-toggle="modal">  -->
+                        <div class="display-cards">
+                            <img src="img/portfolio/supportPage/CoverImage.png" class="img-responsive img-fill" alt="">
+                        </div>
+                        <div class="portfolio-caption portfolio-thumbnail-text">
+                            <h4 class="item-text">UX design: Support Page Redesign in the <br> My Sprint App (Password needed)</h4>
+                        </div>
+                    </a>
+
+                  </div>
+                </div>
+
+                <!-- empty 1 column div -->
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+
+                <!-- empty 1 column div -->
+                <div class="col-md-1"></div>
+
 
                 <!-- ----------K12Insight: Publish workflow-------------------- -->
                 <div class="col-md-5 col-sm-5 portfolio-item">
@@ -194,19 +240,13 @@
                   </div>
                 </div>
 
-                <!-- empty 1 column div -->
-                <div class="col-md-1"></div>
-
-                </div>
+                
 
 
-                <div class="row">
+                
 
-                <!-- empty 1 column div -->
-                <div class="col-md-1"></div>
-
-                <! ------------T1DAR----------------------!>
-                <div class="col-md-5 col-sm-5 portfolio-item">
+               <!-- ----------T1DAR-------------------- -->
+                 <!-- <div class="col-md-5 col-sm-5 portfolio-item">
                   <div class="portfolio-block">
                     <a href="#portfolioModal_T1DAR" target="_blank" class="portfolio-link" data-toggle="modal">
                         <div class="display-cards">
@@ -217,9 +257,9 @@
                         </div>
                     </a>
                   </div>
-                </div>
+                </div> -->
 
-                <! ------------UM LSA Honors---------------------->
+                <!-- ----------UM LSA Honors-------------------- -->
                 <div class="col-md-5 col-sm-5 portfolio-item">
                   <div class="portfolio-block">
                     <a href="#portfolioModal_lsahonors" class="portfolio-link" data-toggle="modal">
@@ -452,6 +492,254 @@
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
     
+    
+<!-- ---  Support Page : case study-->
+    <div class="portfolio-modal modal fade" id="portfolioModal_supportPage" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                  <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2 style="text-transform: none;line-height: 50px;">Support Page Redesign</h2>
+                                <p class="medium-body" style="font-weight:400">Redesigning support page in the My Sprint app</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                           <img class="img-responsive img-centered img-dimensions" src="img/portfolio/supportPage/CoverImage.png" alt="" style="margin-bottom: 80px; max-width: 1920px;">
+                           <!-- <h6 class="medium-image-caption" style="margin-bottom: 40px;">Payment Arrangement in the My Sprint App</h6> -->
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+
+                                <!-- Overview Section -->
+                                <strong class="medium-title">Overview</strong>
+                                
+                                <p class="medium-h2" style="margin-bottom: 8px;">Context</strong>
+                                <ul class="medium-body" style="margin-top: 0px ;">
+                                    <li>Historically the support page in the My Sprint app has received very little attention and it has become a dumping ground for features that don’t belong anywhere else in the app. </li>
+                                    <li>With a bunch of unorganized features on the support tab, customers found it hard to access relevant information and were calling customer care for their support needs.</li>
+                                </ul>
+ 
+                                <p class="medium-h2" style="margin-bottom: 8px;">Problem</strong>
+                                <p class="medium-body" style="margin-top: 0px;">How might we reorganize the information on the support page to promote self service over calling the customer care?</p>
+
+                                <p class="medium-h2" style="margin-bottom: 8px;">Goals</strong>
+                                <p class="medium-body" style="margin-top: 0px;">Change the user behavior when looking for support to: self-service > Chat > Calling customer care.</p>
+                                
+                            
+                                <p class="medium-h2" style="margin-bottom: 8px;">Role</strong>
+                                <p class="medium-body" style="margin-top: 0px;">Primary Designer and Researcher</p>
+
+                                <p class="medium-h2" style="margin-bottom: 8px;">Duration</strong>
+                                <p class="medium-body" style="margin-top: 0px;">Dec 2019 - Apr 2020</p>
+
+                                <p class="medium-h2" style="margin-bottom: 8px;">Team</strong>
+                                <ul class="medium-body" style="margin-top: 0px; margin-bottom: 80px;">
+                                    <li>Design direction: Keith Farb</li>
+                                    <li>Product owner: Masoud Hashime / Blythe Cook</li>
+                                    <li>Copywriter: Diamond Brown</li>
+                                    <li>Business Analyst: Nagarajan Palaniswamy</li>
+                                    <li>Project Manager: Ashley Merkt</li>
+                                </ul>                           
+
+
+                                <!-- Current Situation -->
+                                <span><strong class="medium-title">Current Situation</strong></span>
+                                
+                                <p class="medium-h2" style="margin-bottom: 12px;">On analyzing the support tab, we found 2 major issues in it.</p>
+                                <ul class="medium-body">
+                                    <li>The page had 3 ways for users to chat with an agent.</li>
+                                    <li>Search was buggy and was not returning any results.</li>
+                                </ul>  
+
+                                <img class="img-responsive img-centered" style="margin-top:5%;" src="img/portfolio/supportPage/AnalyzingOldSupportPage.png" alt="">
+                                <h6 class="medium-image-caption" style="margin-bottom: 10%;">Analyzing the current support tab</h6>
+
+                                <!-- Insert image of annotated old support page redesign here -->
+
+                                <div style="margin-bottom: 80px"></div>
+                                
+                                <!-- User Research -->
+                                <strong class="medium-title">User Research</strong>
+
+                                <p class="medium-body">To get an idea about what is working and what isn't, we decided to conduct an <span style="font-weight: 500;">unmoderated user research with the current support page.</span></p>
+
+                                <p class="medium-h2" style="margin-top: 48px;margin-bottom: 12px;">Main objectives</p>
+                                <ul class="medium-body">
+                                    <li>What kind of information do users look for in the support page?</li>
+                                    <li>Do users understand the various links and options available on the support page?</li>
+                                    <li>How do users navigate and look for a topic on the support page?</li>
+                                </ul> 
+
+
+                                <p class="medium-h2" style="margin-top: 48px;margin-bottom: 12px;">Study set up</p>
+                                <p class="medium-body" style="margin-bottom: 8px;">The research involved a <span style="font-weight: 500;">conducting a survey using Userzoom.</span></p>
+                                <p class="medium-body" style="margin-top: 0px;">We asked questions to identify how users resolved issues currently, their experience with using the support page and preference of how they like to resolve an issue.</p>
+                                <p class="medium-body" style="margin-top: 0px;">It also had a click test to identify where users go to get information on a topic.</p>
+
+
+                                <p class="medium-h2" style="margin-top: 48px;margin-bottom: 12px;">Key Insights</p>
+                                
+
+                                <ul class="medium-body">
+                                    <li>Users preferred to call customer support followed by chat to resolve their issues.</li>
+                                    <li>Users preferred to use the Sprint community to resolve issues which we had completely neglected.</li>
+                                    <li>Manage orders feature was used heavily when users had an order on the way.</li>
+                                    <li>Users were not sure under which topic to find a specific issue.</li>
+                                </ul>
+
+                                <img class="img-responsive img-centered" style="margin-top:5%;" src="img/portfolio/supportPage/ClickMapFromResearch.png" alt="">
+                                <h6 class="medium-image-caption" style="margin-bottom: 10%;">Click Map of participants trying to find end of lease options</h6>
+
+                                <!-- Insert image of click map for end of lease options -->
+
+                                 <div style="margin-bottom: 80px"></div>
+
+                                 <!-- Data from other sources -->
+                                <strong class="medium-title">Data from other sources</strong>
+
+                                <p class="medium-h2" style="margin-top: 48px;margin-bottom: 12px;">Click data on support page</p>
+                                <ul class="medium-body">
+                                    <li>This data was not complete as many features were not tagged.</li>
+                                    <li>Chat and manage orders were still used heavily and had over a million clicks.</li>
+                                </ul>
+
+                                <p class="medium-h2" style="margin-top: 48px;margin-bottom: 12px;">Top 5 searched terms</p>
+                                
+                                <ul class="medium-body">
+                                    <li>Hulu</li>
+                                    <li>Change number</li>
+                                    <li>Activate device</li>
+                                    <li>Hotspot</li>
+                                    <li>Payment Arrangements</li>
+                                </ul>
+
+
+                                <p class="medium-h2" style="margin-top: 48px;margin-bottom: 12px;">Top 5 chat intents</p>
+                                <p class="medium-body" style="margin-top: 0px;">They were exactly the same as top searched terms.</p>
+                                
+
+                                <!-- Internal Brainstorming -->
+                                <strong class="medium-title">Internal Brainstorming</strong>
+                                <p class="medium-body" style="margin-top: 0px;">We talked about all this information internally and came up with this priority order.</p>
+
+                                <img class="img-responsive img-centered" style="margin-top:24px;margin-bottom: 64px;" src="img/portfolio/supportPage/InternalBrainstorming.png" alt="">
+                                <!-- <h6 class="medium-image-caption" style="margin-bottom: 10%;">Deciding on the following information architecture internally</h6> -->
+
+
+                                <!-- Couple of designs -->
+                                <strong class="medium-title">Couple of designs</strong>
+                                <p class="medium-body" style="margin-top: 12px;">After some design iterations, we came up with 2 designs. We were confident with the order of sections but were unable to come to a decision on which of these would make it easier for users to find information.</p>
+
+                                <img class="img-responsive img-centered" style="margin-top:5%;" src="img/portfolio/supportPage/CoupleDesigns.png" alt="" >
+                                <h6 class="medium-image-caption" style="margin-bottom: 10%;">Couple of designs with different approaches</h6>
+
+                                <p class="medium-body" style="margin-top: 0px;"><b style="font-size: 20px;">Design A</b> <br/>Separated out the options for Sprint complete and call/chat to different tabs.</p>
+
+                                <p class="medium-body" style="margin-top: 0px;"><b style="font-size: 20px;">Design B</b> <br/>Provided everything on 1 screen with a chat floating button and Sprint complete at the top</p>
+
+
+                                <div style="margin-bottom: 80px"></div>
+                                <!-- Usability Testing -->
+                                <strong class="medium-title">Usability Testing</strong>
+                                <p class="medium-body">To identify which approach works better, we conducted an<span style="font-weight: 500;">unmoderated research with our latest designs.</span></p>
+
+                                <p class="medium-h2" style="margin-top: 48px;margin-bottom: 12px;">Main objectives</p>
+                                <ul class="medium-body">
+                                    <li>Which design takes less time for users to resolve an issue?</li>
+                                    <li>How are users resolving an issue as compared to how we want them to?</li>
+                                    <li>Are users able to find out the items rearranged in this redesign?: Sprint complete, Sprint Community, Finding a store</li>
+                                </ul> 
+
+                                <p class="medium-h2" style="margin-top: 48px;margin-bottom: 12px;">Study set up</p>
+                                <p class="medium-body" style="margin-bottom: 8px;">We conducted <span style="font-weight: 500;">2 think out loud studies unmoderated using UserZoom.</span></p>
+                                <p class="medium-body" style="margin-top: 0px;margin-bottom: 0px;">Pre task questions: How do you resolve issues currently?</p>
+                                <p class="medium-body" style="margin-top: 0px;margin-bottom: 0px;">3 tasks related to finding information about:</p>
+                                <ul class="medium-body">
+                                    <li>Device repair options</li>
+                                    <li>Adding a payment method</li>
+                                    <li>Find a store</li>
+                                </ul> 
+
+                                <p class="medium-body" style="margin-top: 0px;">Post task questions: Rank the different issue resolution mediums?</p>
+
+
+                                <p class="medium-h2" style="margin-top: 48px;margin-bottom: 12px;">Key Insights</p>
+
+                                <ul class="medium-body">
+                                    <li>In both designs, users preferred to self-serve > chat > call which was a big win for us.</li>
+                                    <li>Users were not sure which category would contain the topic they were looking for.</li>
+                                    <li>Users were not sure what all Sprint complete can be used for.</li>
+                                
+                                    <li><span style="font-weight: 500;margin-bottom: 0px;">Design A</span></br> 
+                                        <ul class="medium-body">
+                                            <li>Users utilized search at the top when they were unable to find resolution.</li>
+                                            <li>Sprint community option under the Still need help tab couldn’t be found by most users.</li>
+                                        </ul>    
+                                    </li>
+
+                                    <li><span style="font-weight: 500;">Design B</span></br> 
+                                        <ul class="medium-body">
+                                            <li>Task completion was much higher.</li>
+                                            <li>Sprint complete looked like an ad/banner.</li>
+                                        </ul>    
+                                    </li>
+
+                                </ul>
+
+                                 <div style="margin-bottom: 80px"></div>
+
+                                 <!-- Solution -->
+                                <strong class="medium-title">Solution</strong>
+
+                                <p class="medium-h2" style="margin-top: 32px;margin-bottom: 12px;">Main support page</p>
+                                <ul class="medium-body">
+                                            <li>Kept Sprint Complete as a separate tab as not all users will have it and to provide more information about it.</li>
+                                            <li>Added a little description for category options</li>
+                                            <li>Floating chat button</li>
+                                        </ul>
+
+                                <!-- Insert image 6 here -->
+                                <img class="img-responsive img-dimensions" style="margin-top:24px; margin-bottom: 64px;max-width: 400px;" src="img/portfolio/supportPage/SupportTab.png" alt="">
+
+                               <p class="medium-h2" style="margin-top: 32px;margin-bottom: 12px;">Sprint Complete tab</p>
+                                <ul class="medium-body">
+                                            <li>Added some more information and FAQs for users to understand more about Sprint Complete.</li>
+                                </ul>
+
+                                <!-- Insert image 6 here -->
+                                <img class="img-responsive img-dimensions" style="margin-top:24px; margin-bottom: 64px;max-width: 400px;" src="img/portfolio/supportPage/SprintComplete.png" alt="">
+
+                                
+                               <div style="margin-bottom: 80px"></div>
+
+                                <!-- Retrospective -->
+                                <strong class="medium-title">Retrospective</strong>
+                                <p class="medium-body"><b>Understand the business constraints</b></p>
+                                <ul class="medium-body">
+                                    <li>A lot of decisions in our redesign were made to keep the dev effort low and to maintain alignment with other teams.</li>
+                                    <li>Sprint Rewards app was promoted on the support page as an agreement between the 2 app teams.</li>
+                                    <li>We didn’t remove any features until we had talked to the teams behind them.</li>
+                                </ul>
+                                
+                                <div style="text-align:center;">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <! -----  Payment Arrangement : case study-->
